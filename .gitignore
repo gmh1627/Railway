@@ -9,12 +9,12 @@ __pycache__/
 制图工具/临时数据/
 制图工具/日志/
 制图工具/artifacts/
-制图工具/数据源/
+制图工具/数据源/*
+!制图工具/数据源/Shapefile/
+!制图工具/数据源/Shapefile/**
 
 旧图/
 旧制图文档/
 铁路底图_20260101/
-city/
-province/
 web/
 symbology-style.db

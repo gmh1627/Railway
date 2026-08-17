@@ -1,8 +1,14 @@
 *.gpkg binary
 *.qgz binary
 *.png binary
+*.shp binary
+*.shx binary
+*.dbf binary
 *.md text eol=lf
 *.py text eol=lf
 *.ps1 text eol=lf
 *.ini text eol=lf
 *.json text eol=lf
+*.geojson text eol=lf
+*.prj text eol=lf
+*.cpg text eol=lf
