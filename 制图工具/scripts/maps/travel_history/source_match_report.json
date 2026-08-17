@@ -1,0 +1,1633 @@
+{
+  "province_matches": 21,
+  "missing_provinces": [],
+  "city_matches": [
+    {
+      "source_name": "湛江",
+      "full_name": "湛江市",
+      "province": "广东省",
+      "source": "city",
+      "fid": 250,
+      "adcode": "440800"
+    },
+    {
+      "source_name": "广州",
+      "full_name": "广州市",
+      "province": "广东省",
+      "source": "city",
+      "fid": 243,
+      "adcode": "440100"
+    },
+    {
+      "source_name": "茂名",
+      "full_name": "茂名市",
+      "province": "广东省",
+      "source": "city",
+      "fid": 251,
+      "adcode": "440900"
+    },
+    {
+      "source_name": "东莞",
+      "full_name": "东莞市",
+      "province": "广东省",
+      "source": "city",
+      "fid": 259,
+      "adcode": "441900"
+    },
+    {
+      "source_name": "河源",
+      "full_name": "河源市",
+      "province": "广东省",
+      "source": "city",
+      "fid": 256,
+      "adcode": "441600"
+    },
+    {
+      "source_name": "惠州",
+      "full_name": "惠州市",
+      "province": "广东省",
+      "source": "city",
+      "fid": 253,
+      "adcode": "441300"
+    },
+    {
+      "source_name": "阳江",
+      "full_name": "阳江市",
+      "province": "广东省",
+      "source": "city",
+      "fid": 257,
+      "adcode": "441700"
+    },
+    {
+      "source_name": "江门",
+      "full_name": "江门市",
+      "province": "广东省",
+      "source": "city",
+      "fid": 249,
+      "adcode": "440700"
+    },
+    {
+      "source_name": "佛山",
+      "full_name": "佛山市",
+      "province": "广东省",
+      "source": "city",
+      "fid": 248,
+      "adcode": "440600"
+    },
+    {
+      "source_name": "中山",
+      "full_name": "中山市",
+      "province": "广东省",
+      "source": "city",
+      "fid": 260,
+      "adcode": "442000"
+    },
+    {
+      "source_name": "珠海",
+      "full_name": "珠海市",
+      "province": "广东省",
+      "source": "city",
+      "fid": 246,
+      "adcode": "440400"
+    },
+    {
+      "source_name": "韶关",
+      "full_name": "韶关市",
+      "province": "广东省",
+      "source": "city",
+      "fid": 244,
+      "adcode": "440200"
+    },
+    {
+      "source_name": "揭阳",
+      "full_name": "揭阳市",
+      "province": "广东省",
+      "source": "city",
+      "fid": 262,
+      "adcode": "445200"
+    },
+    {
+      "source_name": "潮州",
+      "full_name": "潮州市",
+      "province": "广东省",
+      "source": "city",
+      "fid": 261,
+      "adcode": "445100"
+    },
+    {
+      "source_name": "深圳",
+      "full_name": "深圳市",
+      "province": "广东省",
+      "source": "city",
+      "fid": 245,
+      "adcode": "440300"
+    },
+    {
+      "source_name": "贵阳",
+      "full_name": "贵阳市",
+      "province": "贵州省",
+      "source": "city",
+      "fid": 356,
+      "adcode": "520100"
+    },
+    {
+      "source_name": "黔南",
+      "full_name": "黔南布依族苗族自治州",
+      "province": "贵州省",
+      "source": "city",
+      "fid": 364,
+      "adcode": "522700"
+    },
+    {
+      "source_name": "黔东南",
+      "full_name": "黔东南苗族侗族自治州",
+      "province": "贵州省",
+      "source": "city",
+      "fid": 363,
+      "adcode": "522600"
+    },
+    {
+      "source_name": "安顺",
+      "full_name": "安顺市",
+      "province": "贵州省",
+      "source": "city",
+      "fid": 359,
+      "adcode": "520400"
+    },
+    {
+      "source_name": "铜仁",
+      "full_name": "铜仁市",
+      "province": "贵州省",
+      "source": "city",
+      "fid": 361,
+      "adcode": "520600"
+    },
+    {
+      "source_name": "合肥",
+      "full_name": "合肥市",
+      "province": "安徽省",
+      "source": "city",
+      "fid": 142,
+      "adcode": "340100"
+    },
+    {
+      "source_name": "池州",
+      "full_name": "池州市",
+      "province": "安徽省",
+      "source": "city",
+      "fid": 156,
+      "adcode": "341700"
+    },
+    {
+      "source_name": "黄山",
+      "full_name": "黄山市",
+      "province": "安徽省",
+      "source": "city",
+      "fid": 150,
+      "adcode": "341000"
+    },
+    {
+      "source_name": "芜湖",
+      "full_name": "芜湖市",
+      "province": "安徽省",
+      "source": "city",
+      "fid": 143,
+      "adcode": "340200"
+    },
+    {
+      "source_name": "宣城",
+      "full_name": "宣城市",
+      "province": "安徽省",
+      "source": "city",
+      "fid": 157,
+      "adcode": "341800"
+    },
+    {
+      "source_name": "安庆",
+      "full_name": "安庆市",
+      "province": "安徽省",
+      "source": "city",
+      "fid": 149,
+      "adcode": "340800"
+    },
+    {
+      "source_name": "铜陵",
+      "full_name": "铜陵市",
+      "province": "安徽省",
+      "source": "city",
+      "fid": 148,
+      "adcode": "340700"
+    },
+    {
+      "source_name": "淮北",
+      "full_name": "淮北市",
+      "province": "安徽省",
+      "source": "city",
+      "fid": 147,
+      "adcode": "340600"
+    },
+    {
+      "source_name": "六安",
+      "full_name": "六安市",
+      "province": "安徽省",
+      "source": "city",
+      "fid": 154,
+      "adcode": "341500"
+    },
+    {
+      "source_name": "滁州",
+      "full_name": "滁州市",
+      "province": "安徽省",
+      "source": "city",
+      "fid": 151,
+      "adcode": "341100"
+    },
+    {
+      "source_name": "马鞍山",
+      "full_name": "马鞍山市",
+      "province": "安徽省",
+      "source": "city",
+      "fid": 146,
+      "adcode": "340500"
+    },
+    {
+      "source_name": "淮南",
+      "full_name": "淮南市",
+      "province": "安徽省",
+      "source": "city",
+      "fid": 145,
+      "adcode": "340400"
+    },
+    {
+      "source_name": "阜阳",
+      "full_name": "阜阳市",
+      "province": "安徽省",
+      "source": "city",
+      "fid": 152,
+      "adcode": "341200"
+    },
+    {
+      "source_name": "武汉",
+      "full_name": "武汉市",
+      "province": "湖北省",
+      "source": "city",
+      "fid": 212,
+      "adcode": "420100"
+    },
+    {
+      "source_name": "孝感",
+      "full_name": "孝感市",
+      "province": "湖北省",
+      "source": "city",
+      "fid": 219,
+      "adcode": "420900"
+    },
+    {
+      "source_name": "岳阳",
+      "full_name": "岳阳市",
+      "province": "湖南省",
+      "source": "city",
+      "fid": 234,
+      "adcode": "430600"
+    },
+    {
+      "source_name": "郴州",
+      "full_name": "郴州市",
+      "province": "湖南省",
+      "source": "city",
+      "fid": 238,
+      "adcode": "431000"
+    },
+    {
+      "source_name": "永州",
+      "full_name": "永州市",
+      "province": "湖南省",
+      "source": "city",
+      "fid": 239,
+      "adcode": "431100"
+    },
+    {
+      "source_name": "扬州",
+      "full_name": "扬州市",
+      "province": "江苏省",
+      "source": "city",
+      "fid": 127,
+      "adcode": "321000"
+    },
+    {
+      "source_name": "镇江",
+      "full_name": "镇江市",
+      "province": "江苏省",
+      "source": "city",
+      "fid": 128,
+      "adcode": "321100"
+    },
+    {
+      "source_name": "徐州",
+      "full_name": "徐州市",
+      "province": "江苏省",
+      "source": "city",
+      "fid": 120,
+      "adcode": "320300"
+    },
+    {
+      "source_name": "南京",
+      "full_name": "南京市",
+      "province": "江苏省",
+      "source": "city",
+      "fid": 118,
+      "adcode": "320100"
+    },
+    {
+      "source_name": "咸阳",
+      "full_name": "咸阳市",
+      "province": "陕西省",
+      "source": "city",
+      "fid": 391,
+      "adcode": "610400"
+    },
+    {
+      "source_name": "西安",
+      "full_name": "西安市",
+      "province": "陕西省",
+      "source": "city",
+      "fid": 388,
+      "adcode": "610100"
+    },
+    {
+      "source_name": "榆林",
+      "full_name": "榆林市",
+      "province": "陕西省",
+      "source": "city",
+      "fid": 395,
+      "adcode": "610800"
+    },
+    {
+      "source_name": "运城",
+      "full_name": "运城市",
+      "province": "山西省",
+      "source": "city",
+      "fid": 50,
+      "adcode": "140800"
+    },
+    {
+      "source_name": "太原",
+      "full_name": "太原市",
+      "province": "山西省",
+      "source": "city",
+      "fid": 43,
+      "adcode": "140100"
+    },
+    {
+      "source_name": "吕梁",
+      "full_name": "吕梁市",
+      "province": "山西省",
+      "source": "city",
+      "fid": 53,
+      "adcode": "141100"
+    },
+    {
+      "source_name": "忻州",
+      "full_name": "忻州市",
+      "province": "山西省",
+      "source": "city",
+      "fid": 51,
+      "adcode": "140900"
+    },
+    {
+      "source_name": "大同",
+      "full_name": "大同市",
+      "province": "山西省",
+      "source": "city",
+      "fid": 44,
+      "adcode": "140200"
+    },
+    {
+      "source_name": "南昌",
+      "full_name": "南昌市",
+      "province": "江西省",
+      "source": "city",
+      "fid": 167,
+      "adcode": "360100"
+    },
+    {
+      "source_name": "赣州",
+      "full_name": "赣州市",
+      "province": "江西省",
+      "source": "city",
+      "fid": 173,
+      "adcode": "360700"
+    },
+    {
+      "source_name": "杭州",
+      "full_name": "杭州市",
+      "province": "浙江省",
+      "source": "city",
+      "fid": 131,
+      "adcode": "330100"
+    },
+    {
+      "source_name": "宁波",
+      "full_name": "宁波市",
+      "province": "浙江省",
+      "source": "city",
+      "fid": 132,
+      "adcode": "330200"
+    },
+    {
+      "source_name": "洛阳",
+      "full_name": "洛阳市",
+      "province": "河南省",
+      "source": "city",
+      "fid": 196,
+      "adcode": "410300"
+    },
+    {
+      "source_name": "郑州",
+      "full_name": "郑州市",
+      "province": "河南省",
+      "source": "city",
+      "fid": 194,
+      "adcode": "410100"
+    },
+    {
+      "source_name": "周口",
+      "full_name": "周口市",
+      "province": "河南省",
+      "source": "city",
+      "fid": 209,
+      "adcode": "411600"
+    },
+    {
+      "source_name": "漯河",
+      "full_name": "漯河市",
+      "province": "河南省",
+      "source": "city",
+      "fid": 204,
+      "adcode": "411100"
+    },
+    {
+      "source_name": "驻马店",
+      "full_name": "驻马店市",
+      "province": "河南省",
+      "source": "city",
+      "fid": 210,
+      "adcode": "411700"
+    },
+    {
+      "source_name": "信阳",
+      "full_name": "信阳市",
+      "province": "河南省",
+      "source": "city",
+      "fid": 208,
+      "adcode": "411500"
+    },
+    {
+      "source_name": "新乡",
+      "full_name": "新乡市",
+      "province": "河南省",
+      "source": "city",
+      "fid": 200,
+      "adcode": "410700"
+    },
+    {
+      "source_name": "枣庄",
+      "full_name": "枣庄市",
+      "province": "山东省",
+      "source": "city",
+      "fid": 181,
+      "adcode": "370400"
+    },
+    {
+      "source_name": "福州",
+      "full_name": "福州市",
+      "province": "福建省",
+      "source": "city",
+      "fid": 158,
+      "adcode": "350100"
+    },
+    {
+      "source_name": "龙岩",
+      "full_name": "龙岩市",
+      "province": "福建省",
+      "source": "city",
+      "fid": 165,
+      "adcode": "350800"
+    },
+    {
+      "source_name": "承德",
+      "full_name": "承德市",
+      "province": "河北省",
+      "source": "city",
+      "fid": 39,
+      "adcode": "130800"
+    },
+    {
+      "source_name": "保定",
+      "full_name": "保定市",
+      "province": "河北省",
+      "source": "city",
+      "fid": 37,
+      "adcode": "130600"
+    },
+    {
+      "source_name": "秦皇岛",
+      "full_name": "秦皇岛市",
+      "province": "河北省",
+      "source": "city",
+      "fid": 34,
+      "adcode": "130300"
+    },
+    {
+      "source_name": "张家口",
+      "full_name": "张家口市",
+      "province": "河北省",
+      "source": "city",
+      "fid": 38,
+      "adcode": "130700"
+    },
+    {
+      "source_name": "葫芦岛",
+      "full_name": "葫芦岛市",
+      "province": "辽宁省",
+      "source": "city",
+      "fid": 79,
+      "adcode": "211400"
+    },
+    {
+      "source_name": "嘉峪关",
+      "full_name": "嘉峪关市",
+      "province": "甘肃省",
+      "source": "city",
+      "fid": 399,
+      "adcode": "620200"
+    },
+    {
+      "source_name": "酒泉",
+      "full_name": "酒泉市",
+      "province": "甘肃省",
+      "source": "city",
+      "fid": 406,
+      "adcode": "620900"
+    },
+    {
+      "source_name": "天水",
+      "full_name": "天水市",
+      "province": "甘肃省",
+      "source": "city",
+      "fid": 402,
+      "adcode": "620500"
+    },
+    {
+      "source_name": "定西",
+      "full_name": "定西市",
+      "province": "甘肃省",
+      "source": "city",
+      "fid": 408,
+      "adcode": "621100"
+    },
+    {
+      "source_name": "兰州",
+      "full_name": "兰州市",
+      "province": "甘肃省",
+      "source": "city",
+      "fid": 398,
+      "adcode": "620100"
+    },
+    {
+      "source_name": "临夏",
+      "full_name": "临夏回族自治州",
+      "province": "甘肃省",
+      "source": "city",
+      "fid": 410,
+      "adcode": "622900"
+    },
+    {
+      "source_name": "武威",
+      "full_name": "武威市",
+      "province": "甘肃省",
+      "source": "city",
+      "fid": 403,
+      "adcode": "620600"
+    },
+    {
+      "source_name": "张掖",
+      "full_name": "张掖市",
+      "province": "甘肃省",
+      "source": "city",
+      "fid": 404,
+      "adcode": "620700"
+    },
+    {
+      "source_name": "北京",
+      "full_name": "北京市",
+      "province": "北京市",
+      "source": "province"
+    },
+    {
+      "source_name": "上海",
+      "full_name": "上海市",
+      "province": "上海市",
+      "source": "province"
+    },
+    {
+      "source_name": "天津",
+      "full_name": "天津市",
+      "province": "天津市",
+      "source": "province"
+    },
+    {
+      "source_name": "北海",
+      "full_name": "北海市",
+      "province": "广西壮族自治区",
+      "source": "city",
+      "fid": 268,
+      "adcode": "450500"
+    },
+    {
+      "source_name": "桂林",
+      "full_name": "桂林市",
+      "province": "广西壮族自治区",
+      "source": "city",
+      "fid": 266,
+      "adcode": "450300"
+    },
+    {
+      "source_name": "柳州",
+      "full_name": "柳州市",
+      "province": "广西壮族自治区",
+      "source": "city",
+      "fid": 265,
+      "adcode": "450200"
+    },
+    {
+      "source_name": "来宾",
+      "full_name": "来宾市",
+      "province": "广西壮族自治区",
+      "source": "city",
+      "fid": 276,
+      "adcode": "451300"
+    },
+    {
+      "source_name": "贵港",
+      "full_name": "贵港市",
+      "province": "广西壮族自治区",
+      "source": "city",
+      "fid": 271,
+      "adcode": "450800"
+    },
+    {
+      "source_name": "玉林",
+      "full_name": "玉林市",
+      "province": "广西壮族自治区",
+      "source": "city",
+      "fid": 272,
+      "adcode": "450900"
+    },
+    {
+      "source_name": "阿拉善",
+      "full_name": "阿拉善盟",
+      "province": "内蒙古自治区",
+      "source": "city",
+      "fid": 65,
+      "adcode": "152900"
+    }
+  ],
+  "missing_cities": [],
+  "ambiguous_cities": [],
+  "station_matches": {
+    "北京丰台": {
+      "fid": 14,
+      "lon": 116.29534170000001,
+      "lat": 39.849995400000005,
+      "tags": "\"addr:district\"=>\"丰台区\",\"addr:housenumber\"=>\"4号\",\"addr:province\"=>\"北京市\",\"addr:street\"=>\"正阳大街\",\"alt_name\"=>\"北京丰台火车站\",\"name:en\"=>\"Beijing Fengtai\",\"name:zh\"=>\"北京丰台\",\"official_name\"=>\"北京丰台站\",\"official_name:en\"=>\"Beijing Fengtai Railway Station\",\"old_name\"=>\"丰台;丰台站;丰台火车站\",\"old_name:en\"=>\"Fengtai;Fengtai Railway Station\",\"old_name:zh\"=>\"丰台\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:position:exact:丰沙:上\"=>\"-4.574\",\"railway:position:exact:京广高速\"=>\"2.980\",\"railway:position:exact:京沪:上\"=>\"17.873\",\"railway:position:exact:京沪:下\"=>\"17.893\",\"railway:position:exact:永丰:上\"=>\"8.334\",\"railway:position:exact:永丰:下\"=>\"8.319\",\"railway:ref\"=>\"10025\",\"train\"=>\"yes\"",
+      "score": 7
+    },
+    "郑州": {
+      "fid": 64,
+      "lon": 113.65366630000001,
+      "lat": 34.7475076,
+      "tags": "\"alt_name\"=>\"郑州站;郑州火车站;Zhengzhou Railway Station\",\"name:en\"=>\"Zhengzhou\",\"name:zh\"=>\"郑州\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wikipedia\"=>\"en:Zhengzhou railway station\"",
+      "score": 7
+    },
+    "兰州": {
+      "fid": 83,
+      "lon": 103.84850560000001,
+      "lat": 36.034178000000004,
+      "tags": "\"alt_name\"=>\"兰州站;兰州火车站;Lanzhou Railway Station\",\"name:en\"=>\"Lanzhou\",\"name:zh\"=>\"兰州\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wikidata\"=>\"Q6487720\"",
+      "score": 7
+    },
+    "北京": {
+      "fid": 101,
+      "lon": 116.4210134,
+      "lat": 39.901116800000004,
+      "tags": "\"name:de\"=>\"Bahnhof Peking\",\"name:en\"=>\"Beijing\",\"name:es\"=>\"Pekín\",\"name:ru\"=>\"Пекин\",\"name:zh\"=>\"北京\",\"name:zh-Hans\"=>\"北京\",\"name:zh-Hant\"=>\"北京\",\"operator\"=>\"北京局集团有限公司\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:position:exact:京沪\"=>\"2.175\",\"railway:position:exact:北京联络\"=>\"0.775\",\"railway:ref\"=>\"10001\",\"train\"=>\"yes\",\"wikidata\"=>\"Q285141\",\"wikipedia\"=>\"zh:北京站\"",
+      "score": 7
+    },
+    "天津": {
+      "fid": 212,
+      "lon": 117.2036841,
+      "lat": 39.1357517,
+      "tags": "\"alt_name\"=>\"天津站;天津火车站;Tianjin Railway Station\",\"name:en\"=>\"Tianjin\",\"name:zh\"=>\"天津\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:position:exact:京津城际\"=>\"118.044\",\"railway:position:exact:津山\"=>\"139.344\",\"railway:position:exact:津秦高铁\"=>\"16.731\",\"railway:ref\"=>\"10157\",\"railway:station_category\"=>\"特等站\",\"start_date\"=>\"1888\",\"train\"=>\"yes\",\"uic_ref\"=>\"3300002\",\"wikidata\"=>\"Q944738\",\"wikipedia\"=>\"zh:天津站\"",
+      "score": 7
+    },
+    "嘉峪关": {
+      "fid": 216,
+      "lon": 98.2538439,
+      "lat": 39.7638985,
+      "tags": "\"name:en\"=>\"Jiayuguan\",\"public_transport\"=>\"station\",\"railway\"=>\"station\"",
+      "score": 6
+    },
+    "太原": {
+      "fid": 217,
+      "lon": 112.58183170000001,
+      "lat": 37.860037500000004,
+      "tags": "\"alt_name\"=>\"太原站;太原火车站;Taiyuan Railway Station\",\"name:en\"=>\"Taiyuan\",\"name:th\"=>\"รฟ.ไท่ยวน\",\"name:zh\"=>\"太原\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wikidata\"=>\"Q988020\",\"wikipedia\"=>\"zh:太原站\"",
+      "score": 7
+    },
+    "北京南": {
+      "fid": 1066,
+      "lon": 116.3723994,
+      "lat": 39.8634831,
+      "tags": "\"alt_name\"=>\"Beijing South;北京南站;Beijing South Railway Station\",\"name:de\"=>\"Peking Südbahnhof\",\"name:en\"=>\"Beijingnan\",\"name:zh\"=>\"北京南\",\"operator\"=>\"中国铁路北京局\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:position:exact:京南至动车段A\"=>\"0.639\",\"railway:position:exact:京南至动车段B\"=>\"0.645\",\"railway:position:exact:京沪\"=>\"10.925\",\"railway:position:exact:京沪高铁\"=>\"1.086\",\"railway:position:exact:京津城际\"=>\"1.105\",\"railway:ref\"=>\"10010\",\"train\"=>\"yes\",\"wheelchair\"=>\"yes\"",
+      "score": 7
+    },
+    "武汉": {
+      "fid": 1143,
+      "lon": 114.4189431,
+      "lat": 30.609850400000003,
+      "tags": "\"alt_name\"=>\"武汉站;武汉火车站;Wuhan Railway Station\",\"name:en\"=>\"Wuhan\",\"name:zh\"=>\"武汉\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\"",
+      "score": 7
+    },
+    "岳阳东": {
+      "fid": 1150,
+      "lon": 113.2023195,
+      "lat": 29.368959800000003,
+      "tags": "\"int_name\"=>\"Yueyangdong Station\",\"name:en\"=>\"Yueyang East\",\"name:zh\"=>\"岳阳东\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"wikidata\"=>\"Q8060311\"",
+      "score": 6
+    },
+    "新乡": {
+      "fid": 115053,
+      "lon": 113.85355720000001,
+      "lat": 35.3063652,
+      "tags": "\"alt_name\"=>\"新乡站;新乡火车站;Xinxiang Railway Station\",\"name:en\"=>\"Xinxiang\",\"name:zh\"=>\"新乡\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"start_date\"=>\"1905\",\"train\"=>\"yes\",\"wikipedia\"=>\"zh:新乡站\"",
+      "score": 7
+    },
+    "大同": {
+      "fid": 1314,
+      "lon": 113.29633810000001,
+      "lat": 40.1190975,
+      "tags": "\"alt_name\"=>\"大同站;大同火车站;Datong Railway Station\",\"int_name\"=>\"Datong\",\"name:en\"=>\"Datong\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:position:exact:北同蒲\"=>\"-0.894\",\"railway:ref\"=>\"12392\",\"train\"=>\"yes\",\"uic_ref\"=>\"3300001\",\"wikidata\"=>\"Q988030\"",
+      "score": 7
+    },
+    "深圳": {
+      "fid": 86918,
+      "lon": 114.11209450000001,
+      "lat": 22.534276000000002,
+      "tags": "\"alt_name\"=>\"深圳站;深圳火车站;Shenzhen Railway Station\",\"internet_access\"=>\"yes\",\"name:en\"=>\"Shenzhen\",\"name:zh\"=>\"深圳\",\"operator\"=>\"中国铁路广州局\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\"",
+      "score": 7
+    },
+    "巩义南": {
+      "fid": 1554,
+      "lon": 112.9105621,
+      "lat": 34.6716859,
+      "tags": "\"name:en\"=>\"Gongyi South\",\"name:zh\"=>\"巩义南\",\"railway\"=>\"station\",\"wheelchair\"=>\"yes\",\"wikidata\"=>\"Q5581803\"",
+      "score": 4
+    },
+    "天水": {
+      "fid": 1565,
+      "lon": 105.89492480000001,
+      "lat": 34.567103200000005,
+      "tags": "\"alt_name\"=>\"天水站;Tianshui Station\",\"name:en\"=>\"Tianshui\",\"name:zh\"=>\"天水\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"wikidata\"=>\"Q10939861\",\"wikipedia\"=>\"zh:天水站\"",
+      "score": 6
+    },
+    "张家口": {
+      "fid": 1693,
+      "lon": 114.87661440000001,
+      "lat": 40.749518,
+      "tags": "\"alt_name\"=>\"张家口站;张家口火车站;Zhangjiakou Railway Station\",\"name:cs\"=>\"Čang-ťia-kchou\",\"name:en\"=>\"Zhangjiakou\",\"name:zh\"=>\"张家口\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:position:exact:京包\"=>\"192.164\",\"railway:position:exact:京包客专\"=>\"192.645\",\"railway:ref\"=>\"12308\",\"train\"=>\"yes\",\"uic_ref\"=>\"3300022\",\"wikidata\"=>\"Q6118927\",\"wikipedia\"=>\"zh:张家口站\"",
+      "score": 7
+    },
+    "宁武": {
+      "fid": 1770,
+      "lon": 112.31280100000001,
+      "lat": 39.005571,
+      "tags": "\"alt_name\"=>\"宁武站;宁武火车站;Ningwu Railway Station\",\"name:en\"=>\"Ningwu\",\"railway\"=>\"station\",\"train\"=>\"yes\"",
+      "score": 5
+    },
+    "马鞍山": {
+      "fid": 1898,
+      "lon": 118.4968455,
+      "lat": 31.7094914,
+      "tags": "\"name:en\"=>\"Ma'anshan\",\"name:ja\"=>\"馬鞍山\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"usage\"=>\"main\",\"wikidata\"=>\"Q17034189\"",
+      "score": 6
+    },
+    "上海南": {
+      "fid": 87644,
+      "lon": 121.42488420000001,
+      "lat": 31.155011700000003,
+      "tags": "\"name:en\"=>\"Shanghai South\",\"name:ja\"=>\"上海南駅\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:ref\"=>\"32270\",\"wikidata\"=>\"Q742675\",\"wikipedia\"=>\"en:Shanghai South railway station\"",
+      "score": 6
+    },
+    "清河": {
+      "fid": 87149,
+      "lon": 116.30909310000001,
+      "lat": 40.0400025,
+      "tags": "\"alt_name\"=>\"清河站;清河火车站;Qinghe Railway Station\",\"name:en\"=>\"Qinghe\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:position:exact\"=>\"31.683\",\"railway:ref\"=>\"12707\",\"train\"=>\"yes\",\"wikidata\"=>\"Q728992\",\"wikipedia\"=>\"en:Qinghe railway station\"",
+      "score": 7
+    },
+    "北京北": {
+      "fid": 109138,
+      "lon": 116.34618660000001,
+      "lat": 39.9459061,
+      "tags": "\"alt_name\"=>\"北京北站;Beijing North;Beijing North Railway Station;Beijingbei Railway Station\",\"name:de\"=>\"Peking Nordbahnhof\",\"name:en\"=>\"Beijingbei\",\"name:zh\"=>\"北京北\",\"old_name\"=>\"西直门\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:position:exact:京包\"=>\"12.4135\",\"railway:position:exact:京包客专\"=>\"20.523\",\"railway:ref\"=>\"12713\",\"train\"=>\"yes\"",
+      "score": 7
+    },
+    "酒泉": {
+      "fid": 3867,
+      "lon": 98.4509328,
+      "lat": 39.6445507,
+      "tags": "\"name:en\"=>\"Jiuquan\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"wikidata\"=>\"Q11644334\"",
+      "score": 6
+    },
+    "来宾": {
+      "fid": 3949,
+      "lon": 109.23724890000001,
+      "lat": 23.7324711,
+      "tags": "\"alt_name\"=>\"来宾站;来宾火车站;Laibin Railway Station\",\"name:en\"=>\"Laibin\",\"name:ru\"=>\"Лайбинь\",\"name:zh\"=>\"来宾\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wikipedia\"=>\"zh:来宾站\"",
+      "score": 7
+    },
+    "玉林": {
+      "fid": 3951,
+      "lon": 110.15236,
+      "lat": 22.600073000000002,
+      "tags": "\"alt_name\"=>\"玉林站;玉林火车站;Yulin Railway Station\",\"name:en\"=>\"Yulin\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wikidata\"=>\"Q24840369\"",
+      "score": 5
+    },
+    "南昌": {
+      "fid": 4229,
+      "lon": 115.91482470000001,
+      "lat": 28.665285500000003,
+      "tags": "\"alt_name\"=>\"南昌站;南昌火车站;Nanchang Railway Station\",\"loc_name\"=>\"南站\",\"name:en\"=>\"Nanchang\",\"name:zh\"=>\"南昌\",\"official_name\"=>\"南昌车站\",\"operator\"=>\"中国铁路南昌局集团有限公司\",\"platforms\"=>\"10\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wheelchair\"=>\"yes\",\"wikidata\"=>\"Q1040361\",\"wikipedia\"=>\"zh:南昌站 (江西省)\"",
+      "score": 7
+    },
+    "洛阳": {
+      "fid": 4260,
+      "lon": 112.42994180000001,
+      "lat": 34.687322,
+      "tags": "\"alt_name\"=>\"洛阳站;洛阳火车站;Luoyang Railway Station\",\"name:en\"=>\"Luoyang\",\"name:zh\"=>\"洛阳\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wikidata\"=>\"Q11146226\",\"wikipedia\"=>\"zh:洛阳站\"",
+      "score": 7
+    },
+    "贵阳": {
+      "fid": 4324,
+      "lon": 106.6987409,
+      "lat": 26.559901,
+      "tags": "\"alt_name\"=>\"贵阳站;贵阳火车站;Guiyang Railway Station\",\"name:en\"=>\"Guiyang\",\"name:zh\"=>\"贵阳\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:traffic_mode\"=>\"passenger\",\"train\"=>\"yes\",\"wikidata\"=>\"Q11634822\"",
+      "score": 7
+    },
+    "柳州": {
+      "fid": 102841,
+      "lon": 109.3833252,
+      "lat": 24.3105845,
+      "tags": "\"alt_name\"=>\"柳州站;柳州火车站;Liuzhou Railway Station\",\"name:en\"=>\"Liuzhou\",\"name:zh\"=>\"柳州\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wikidata\"=>\"Q5964826\",\"wikipedia\"=>\"zh:柳州站\"",
+      "score": 7
+    },
+    "赣州": {
+      "fid": 5103,
+      "lon": 114.960344,
+      "lat": 25.822383600000002,
+      "tags": "\"alt_name\"=>\"赣州站;赣州火车站;Ganzhou Railway Station\",\"name:de\"=>\"Ganzhou\",\"name:en\"=>\"Ganzhou\",\"name:zh\"=>\"赣州\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wikidata\"=>\"Q16691663\"",
+      "score": 7
+    },
+    "于都": {
+      "fid": 5106,
+      "lon": 115.41148650000001,
+      "lat": 25.978581000000002,
+      "tags": "\"name:en\"=>\"Yudu\",\"railway\"=>\"station\",\"wikidata\"=>\"Q17498967\",\"wikipedia\"=>\"zh:于都站\"",
+      "score": 4
+    },
+    "岢岚": {
+      "fid": 5934,
+      "lon": 111.5749274,
+      "lat": 38.7179,
+      "tags": "\"alt_name\"=>\"岢岚站;岢岚火车站;Kelan Railway Station\",\"name:en\"=>\"Kelan\",\"name:ru\"=>\"Кэлань\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"usage\"=>\"main\"",
+      "score": 5
+    },
+    "驻马店": {
+      "fid": 21358,
+      "lon": 114.0368444,
+      "lat": 32.981009900000004,
+      "tags": "\"alt_name\"=>\"驻马店站;驻马店火车站;Zhumadian Railway Station\",\"name:en\"=>\"Zhumadian\",\"name:zh\"=>\"驻马店\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wikidata\"=>\"Q15911718\"",
+      "score": 7
+    },
+    "深圳东": {
+      "fid": 7185,
+      "lon": 114.1144127,
+      "lat": 22.604916000000003,
+      "tags": "\"alt_name\"=>\"深圳东站;Shenzhen East;Shenzhen East Railway Station;Shenzhendong Railway Station\",\"name:en\"=>\"Shenzhendong\",\"name:zh\"=>\"深圳东\",\"old_name\"=>\"布吉\",\"platforms\"=>\"4\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:position:exact:广深\"=>\"138.588\",\"railway:ref\"=>\"23795\",\"train\"=>\"yes\"",
+      "score": 7
+    },
+    "镇江": {
+      "fid": 7608,
+      "lon": 119.426989,
+      "lat": 32.1996564,
+      "tags": "\"alt_name\"=>\"镇江站;镇江火车站;Zhenjiang Railway Station\",\"name:en\"=>\"Zhenjiang\",\"name:zh\"=>\"镇江\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wikidata\"=>\"Q1027536\",\"wikipedia\"=>\"zh:镇江站\"",
+      "score": 7
+    },
+    "零陵": {
+      "fid": 9049,
+      "lon": 111.57549350000001,
+      "lat": 26.226133,
+      "tags": "\"alt_name\"=>\"零陵站;零陵火车站;Lingling Railway Station\",\"name:en\"=>\"Lingling\",\"name:zh\"=>\"零陵\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wikidata\"=>\"Q28418227\",\"wikipedia\"=>\"zh:零陵站\"",
+      "score": 5
+    },
+    "信阳东": {
+      "fid": 10146,
+      "lon": 114.1543869,
+      "lat": 32.145915200000005,
+      "tags": "\"name:en\"=>\"Xinyang East\",\"public_transport\"=>\"station\",\"railway\"=>\"station\"",
+      "score": 6
+    },
+    "南昌西": {
+      "fid": 10276,
+      "lon": 115.7877114,
+      "lat": 28.6257294,
+      "tags": "\"alt_name:en\"=>\"Nanchangxi Railway Station\",\"name:en\"=>\"Nanchangxi Railway Station\",\"operator\"=>\"南昌铁路局\",\"platforms\"=>\"12\",\"public_transport\"=>\"station\",\"railway\"=>\"station\"",
+      "score": 6
+    },
+    "驻马店西": {
+      "fid": 116916,
+      "lon": 113.97263740000001,
+      "lat": 33.002556500000004,
+      "tags": "\"public_transport\"=>\"station\",\"railway\"=>\"station\"",
+      "score": 6
+    },
+    "韶关": {
+      "fid": 12112,
+      "lon": 113.50895820000001,
+      "lat": 24.753512,
+      "tags": "\"alt_name\"=>\"韶关高铁站;新韶关站;韶关西站\",\"name:en\"=>\"Shaoguan\",\"name:zh\"=>\"韶关\",\"official_name\"=>\"韶关站\",\"official_name:en\"=>\"Shaoguan Railway Station\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wheelchair\"=>\"yes\",\"wikidata\"=>\"Q3266784\"",
+      "score": 7
+    },
+    "新乡东": {
+      "fid": 12555,
+      "lon": 113.9729327,
+      "lat": 35.3147084,
+      "tags": "\"name:en\"=>\"Xinxiang East\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"wikidata\"=>\"Q8044665\"",
+      "score": 6
+    },
+    "南京南": {
+      "fid": 12772,
+      "lon": 118.79305160000001,
+      "lat": 31.970797,
+      "tags": "\"alt_name:en\"=>\"Nanjing South\",\"name:en\"=>\"Nanjingnan\",\"name:zh\"=>\"南京南\",\"name:zh-Hans\"=>\"南京南\",\"name:zh-Hant\"=>\"南京南\",\"name:zh-Latn-pinyin\"=>\"Nánjīng Nán\",\"official_name\"=>\"南京南站\",\"official_name:en\"=>\"Nanjing South Railway Station\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\"",
+      "score": 7
+    },
+    "汉口": {
+      "fid": 12857,
+      "lon": 114.2494144,
+      "lat": 30.6216514,
+      "tags": "\"alt_name\"=>\"汉口站;汉口火车站;Hankou Railway Station\",\"name:en\"=>\"Hankou\",\"name:zh\"=>\"汉口\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wikidata\"=>\"Q1010546\",\"wikipedia\"=>\"en:Hankou Railway Station\"",
+      "score": 7
+    },
+    "漯河": {
+      "fid": 12937,
+      "lon": 114.03732400000001,
+      "lat": 33.572327,
+      "tags": "\"alt_name\"=>\"漯河站;漯河火车站;Luohe Railway Station\",\"name:en\"=>\"Luohe\",\"name:zh\"=>\"漯河\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\"",
+      "score": 7
+    },
+    "桂林北": {
+      "fid": 12989,
+      "lon": 110.29818590000001,
+      "lat": 25.33146,
+      "tags": "\"alt_name\"=>\"桂林北站\",\"alt_name:en\"=>\"Guilin North;Guilin North Railway Station;Guilinbei Railway Station\",\"name:en\"=>\"Guilinbei\",\"name:ja\"=>\"桂林北\",\"name:za\"=>\"Gveilinz Bwz\",\"name:za-Hani\"=>\"桂林北\",\"name:zh\"=>\"桂林北\",\"name:zh-Latn-pinyin\"=>\"Guìlín Běi\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:traffic_mode\"=>\"passenger\",\"train\"=>\"yes\",\"wikidata\"=>\"Q11111544\",\"wikipedia\"=>\"zh:桂林北站\"",
+      "score": 7
+    },
+    "巩义": {
+      "fid": 13183,
+      "lon": 112.97512250000001,
+      "lat": 34.761211200000005,
+      "tags": "\"alt_name\"=>\"巩义站;巩义火车站;Gongyi Railway Station\",\"name:en\"=>\"Gongyi\",\"name:zh\"=>\"巩义\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"toilets:wheelchair\"=>\"yes\",\"train\"=>\"yes\",\"wheelchair\"=>\"yes\",\"wikidata\"=>\"Q11058103\"",
+      "score": 7
+    },
+    "瑞金": {
+      "fid": 17162,
+      "lon": 116.05110850000001,
+      "lat": 25.8665598,
+      "tags": "\"name:en\"=>\"Ruijin\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"wikidata\"=>\"Q17499559\",\"wikipedia\"=>\"zh:瑞金站\"",
+      "score": 6
+    },
+    "张掖": {
+      "fid": 17640,
+      "lon": 100.51806830000001,
+      "lat": 38.973545900000005,
+      "tags": "\"name:en\"=>\"Zhangye\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"wikidata\"=>\"Q8070487\"",
+      "score": 6
+    },
+    "长汀南": {
+      "fid": 17891,
+      "lon": 116.35279530000001,
+      "lat": 25.7692988,
+      "tags": "\"addr:city\"=>\"龙岩市\",\"addr:district\"=>\"长汀县\",\"addr:province\"=>\"福建省\",\"name:en\"=>\"Changtingnan Railway Station\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"wikidata\"=>\"Q24836454\"",
+      "score": 6
+    },
+    "古田会址": {
+      "fid": 17892,
+      "lon": 116.76761450000001,
+      "lat": 25.187087000000002,
+      "tags": "\"addr:city\"=>\"龙岩市\",\"addr:district\"=>\"上杭县\",\"addr:province\"=>\"福建省\",\"alt_name\"=>\"古田会址站;Gutianhuizhi Railway Station;Gutianhuizhi Station\",\"name:en\"=>\"Gutianhuizhi\",\"name:zh\"=>\"古田会址\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"wikidata\"=>\"Q22099323\",\"wikipedia\"=>\"zh:古田会址站\"",
+      "score": 6
+    },
+    "赣州西": {
+      "fid": 17952,
+      "lon": 114.81091690000001,
+      "lat": 25.8232973,
+      "tags": "\"addr:city\"=>\"赣州\",\"addr:district\"=>\"章贡区\",\"addr:province\"=>\"江西\",\"alt_name\"=>\"赣州西站;Ganzhou West;Ganzhou West Railway Station;Ganzhouxi Railway Station\",\"name:de\"=>\"Ganzhou West\",\"name:en\"=>\"Ganzhouxi\",\"name:nan\"=>\"Kòng-chiu-sai\",\"name:zh\"=>\"赣州西\",\"name:zh-Hans\"=>\"赣州西\",\"name:zh-Hant\"=>\"贛州西\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wikidata\"=>\"Q52146308\",\"wikipedia\"=>\"zh:贛州西站\"",
+      "score": 7
+    },
+    "甘谷": {
+      "fid": 18016,
+      "lon": 105.3284065,
+      "lat": 34.7639221,
+      "tags": "\"alt_name\"=>\"Gangu Station;Gangu Railway Station\",\"name:en\"=>\"Gangu\",\"name:zh\"=>\"甘谷\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"wikidata\"=>\"Q17062705\",\"wikipedia\"=>\"zh:甘谷站\"",
+      "score": 6
+    },
+    "张掖西": {
+      "fid": 18159,
+      "lon": 100.4265546,
+      "lat": 38.922501700000005,
+      "tags": "\"name:en\"=>\"Zangye West Railway Station\",\"public_transport\"=>\"station\",\"railway\"=>\"station\"",
+      "score": 6
+    },
+    "酒泉南": {
+      "fid": 18165,
+      "lon": 98.53507450000001,
+      "lat": 39.7006352,
+      "tags": "\"name:en\"=>\"Jiuquannan\",\"public_transport\"=>\"station\",\"railway\"=>\"station\"",
+      "score": 6
+    },
+    "嘉峪关南": {
+      "fid": 18166,
+      "lon": 98.3092476,
+      "lat": 39.716707500000005,
+      "tags": "\"name:en\"=>\"Jiayuguannan\",\"public_transport\"=>\"station\",\"railway\"=>\"station\"",
+      "score": 6
+    },
+    "永济北": {
+      "fid": 18360,
+      "lon": 110.4192369,
+      "lat": 35.028299100000005,
+      "tags": "\"public_transport\"=>\"station\",\"railway\"=>\"station\"",
+      "score": 6
+    },
+    "府谷": {
+      "fid": 19270,
+      "lon": 111.039572,
+      "lat": 39.0508442,
+      "tags": "\"alt_name\"=>\"府谷站;府谷火车站;Fugu Railway Station\",\"name:en\"=>\"Fugu\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\"",
+      "score": 7
+    },
+    "枣庄": {
+      "fid": 19315,
+      "lon": 117.30037340000001,
+      "lat": 34.7818841,
+      "tags": "\"name:de\"=>\"Zaozhuang\",\"name:en\"=>\"Zaozhuang\",\"name:zh\"=>\"枣庄\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:position:exact:京沪高铁\"=>\"628.223\",\"railway:ref\"=>\"66821\"",
+      "score": 6
+    },
+    "扬州东": {
+      "fid": 19336,
+      "lon": 119.5233197,
+      "lat": 32.406613400000005,
+      "tags": "\"alt_name\"=>\"扬州东站;Yangzhou East;Yangzhou East Railway Station;Yangzhoudong Railway Station\",\"name:en\"=>\"Yangzhoudong\",\"name:zh\"=>\"扬州东\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wikidata\"=>\"Q28414009\"",
+      "score": 7
+    },
+    "武山": {
+      "fid": 19389,
+      "lon": 104.9167218,
+      "lat": 34.722187600000005,
+      "tags": "\"public_transport\"=>\"station\",\"railway\"=>\"station\"",
+      "score": 6
+    },
+    "孝感东": {
+      "fid": 22946,
+      "lon": 113.9424846,
+      "lat": 30.9357745,
+      "tags": "\"alt_name\"=>\"孝感东站;Xiaogan East;Xiaogan East Railway Station;Xiaogandong Railway Station\",\"name:en\"=>\"Xiaogandong\",\"name:zh\"=>\"孝感东\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\"",
+      "score": 7
+    },
+    "东莞": {
+      "fid": 86989,
+      "lon": 113.8544198,
+      "lat": 23.0912292,
+      "tags": "\"alt_name\"=>\"东莞站;东莞火车站;Dongguan Railway Station\",\"name:en\"=>\"Dongguan\",\"name:zh\"=>\"东莞\",\"operator\"=>\"中国铁路广州局\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wikidata\"=>\"Q15912868\",\"wikipedia\"=>\"zh:東莞站\"",
+      "score": 7
+    },
+    "兰州西": {
+      "fid": 23417,
+      "lon": 103.74928430000001,
+      "lat": 36.0675844,
+      "tags": "\"alt_name\"=>\"兰州西高铁站;兰州西站;Lanzhou West;Lanzhou West Railway Station;Lanzhouxi Railway Station\",\"name:en\"=>\"Lanzhouxi\",\"name:zh\"=>\"兰州西\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wikidata\"=>\"Q6487722\"",
+      "score": 7
+    },
+    "黄山北": {
+      "fid": 24913,
+      "lon": 118.2673395,
+      "lat": 29.8183365,
+      "tags": "\"addr:city\"=>\"黄山市\",\"addr:district\"=>\"徽州区\",\"addr:housenumber\"=>\"2号\",\"addr:province\"=>\"安徽省\",\"addr:street\"=>\"迎客松大道\",\"alt_name\"=>\"黄山北站;Huangshan North;Huangshan North Railway Station;Huangshanbei Railway Station\",\"name:en\"=>\"Huangshanbei\",\"name:zh\"=>\"黄山北\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\"",
+      "score": 7
+    },
+    "广州南": {
+      "fid": 25048,
+      "lon": 113.2640375,
+      "lat": 22.991414300000002,
+      "tags": "\"alt_name\"=>\"广州南站;Guangzhou South;Guangzhou South Railway Station;Guangzhounan Railway Station\",\"name:en\"=>\"Guangzhounan\",\"name:zh\"=>\"广州南\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:ref\"=>\"65848\",\"train\"=>\"yes\",\"wikidata\"=>\"Q1073420\",\"wikipedia\"=>\"zh:广州南站\"",
+      "score": 7
+    },
+    "来宾北": {
+      "fid": 25053,
+      "lon": 109.24098230000001,
+      "lat": 23.754560100000003,
+      "tags": "\"alt_name\"=>\"来宾北站;Laibin North;Laibin North Railway Station;Laibinbei Railway Station\",\"name:en\"=>\"Laibinbei\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wikidata\"=>\"Q17499883\",\"wikipedia\"=>\"zh:来宾北站\"",
+      "score": 7
+    },
+    "神木": {
+      "fid": 25139,
+      "lon": 110.4490968,
+      "lat": 38.936727100000006,
+      "tags": "\"alt_name\"=>\"店塔站;店塔火车站;Dianta Railway Station\",\"name:en\"=>\"Shenmu\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\"",
+      "score": 7
+    },
+    "定西": {
+      "fid": 25873,
+      "lon": 104.62259250000001,
+      "lat": 35.592686300000004,
+      "tags": "\"name:en\"=>\"Dingxi\",\"public_transport\"=>\"station\",\"railway\"=>\"station\"",
+      "score": 6
+    },
+    "贵港": {
+      "fid": 26499,
+      "lon": 109.609059,
+      "lat": 23.102846600000003,
+      "tags": "\"alt_name\"=>\"贵港站;贵港火车站;Guigang Railway Station\",\"name:en\"=>\"Guigang\",\"name:zh\"=>\"贵港\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wikidata\"=>\"Q19853752\",\"wikipedia\"=>\"zh:贵港站\"",
+      "score": 7
+    },
+    "杭州东": {
+      "fid": 87502,
+      "lon": 120.2082034,
+      "lat": 30.2935486,
+      "tags": "\"alt_name\"=>\"杭州东站\",\"alt_name:en\"=>\"Hangzhou East;Hangzhou East Railway Station;Hangzhoudong Railway Station\",\"alt_name:zh\"=>\"杭州东站\",\"name:de\"=>\"Hangzhou Ost\",\"name:en\"=>\"Hangzhoudong\",\"name:zh\"=>\"杭州东\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\"",
+      "score": 7
+    },
+    "祁阳": {
+      "fid": 27008,
+      "lon": 111.826098,
+      "lat": 26.6124696,
+      "tags": "\"alt_name\"=>\"祁阳站\",\"name:en\"=>\"Qiyang\",\"name:zh\"=>\"祁阳\",\"operator\"=>\"中国铁路广州局集团有限公司\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\"",
+      "score": 7
+    },
+    "天津西": {
+      "fid": 28034,
+      "lon": 117.15711950000001,
+      "lat": 39.157355,
+      "tags": "\"alt_name\"=>\"天津西站;Tianjin West;Tianjin West Railway Station;Tianjinxi Railway Station\",\"name:en\"=>\"Tianjinxi\",\"name:zh\"=>\"天津西\",\"name:zh-Hans\"=>\"天津西\",\"name:zh-Hant\"=>\"天津西\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:position:exact:京沪\"=>\"137.831\",\"railway:position:exact:南仓城际高速联络\"=>\"116.610\",\"railway:position:exact:津秦高速\"=>\"11.711\",\"railway:position:exact:津霸客专\"=>\"0.595\",\"railway:ref\"=>\"16010\",\"railway:station_category\"=>\"特等站\",\"train\"=>\"yes\",\"wikidata\"=>\"Q1073646\"",
+      "score": 7
+    },
+    "西安北": {
+      "fid": 28907,
+      "lon": 108.9340253,
+      "lat": 34.3776675,
+      "tags": "\"addr:city\"=>\"西安\",\"addr:district\"=>\"未央区\",\"addr:postcode\"=>\"710000\",\"addr:province\"=>\"陕西\",\"addr:street\"=>\"元朔路\",\"alt_name\"=>\"西安北站\",\"alt_name:en\"=>\"Xi'an North;Xi'an North;Xi'an North Railway Station;Xi'anbei Railway Station\",\"name:en\"=>\"Xi'anbei\",\"name:zh\"=>\"西安北\",\"operator\"=>\"中国铁路西安局集团有限公司\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:ref\"=>\"39032\",\"train\"=>\"yes\"",
+      "score": 7
+    },
+    "永州": {
+      "fid": 29494,
+      "lon": 111.5655253,
+      "lat": 26.4576625,
+      "tags": "\"alt_name\"=>\"永州站;永州火车站;Yongzhou Railway Station\",\"name:en\"=>\"Yongzhou\",\"name:zh\"=>\"永州\",\"operator\"=>\"中国铁路南宁局\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wikidata\"=>\"Q11131900\"",
+      "score": 7
+    },
+    "陇西": {
+      "fid": 29920,
+      "lon": 104.70229800000001,
+      "lat": 34.953181,
+      "tags": "\"name:en\"=>\"Longxi\",\"public_transport\"=>\"station\",\"railway\"=>\"station\"",
+      "score": 6
+    },
+    "寿县": {
+      "fid": 31258,
+      "lon": 116.80055200000001,
+      "lat": 32.5950756,
+      "tags": "\"alt_name\"=>\"寿县站;寿县火车站;Shouxian Railway Station\",\"name:en\"=>\"Shouxian\",\"name:zh\"=>\"寿县\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\"",
+      "score": 7
+    },
+    "阜阳西": {
+      "fid": 31260,
+      "lon": 115.7476278,
+      "lat": 32.884940900000004,
+      "tags": "\"alt_name\"=>\"阜阳西站;Fuyang West;Fuyang West Railway Station;Fuyangxi Railway Station\",\"name:en\"=>\"Fuyangxi\",\"name:zh\"=>\"阜阳西\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wikidata\"=>\"Q61647917\"",
+      "score": 7
+    },
+    "上海虹桥": {
+      "fid": 31378,
+      "lon": 121.31620040000001,
+      "lat": 31.195978200000003,
+      "tags": "\"name:en\"=>\"Shanghai-Hongqiao\",\"name:es\"=>\"Shanghái Hongqiao\",\"name:zh\"=>\"上海虹桥\",\"name:zh-Hans\"=>\"上海虹桥\",\"name:zh-Hant\"=>\"上海虹橋\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:ref\"=>\"66100\",\"train\"=>\"yes\",\"wikidata\"=>\"Q1088925\"",
+      "score": 7
+    },
+    "高邮": {
+      "fid": 32663,
+      "lon": 119.5002053,
+      "lat": 32.7756646,
+      "tags": "\"alt_name\"=>\"高邮站;高邮火车站;Gaoyou Railway Station\",\"name:en\"=>\"Gaoyou\",\"name:zh\"=>\"高邮\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\"",
+      "score": 7
+    },
+    "宣化北": {
+      "fid": 32853,
+      "lon": 115.0425337,
+      "lat": 40.631614400000004,
+      "tags": "\"alt_name\"=>\"宣化北站;Xuanhua North;Xuanhua North Railway Station;Xuanhuabei Railway Station\",\"name:en\"=>\"Xuanhuabei\",\"name:zh\"=>\"宣化北\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:position:exact\"=>\"172.431\",\"railway:ref\"=>\"12189\",\"train\"=>\"yes\",\"wikidata\"=>\"Q8045186\",\"wikipedia\"=>\"zh:宣化北站\"",
+      "score": 7
+    },
+    "敦煌": {
+      "fid": 34489,
+      "lon": 94.78341130000001,
+      "lat": 40.167847200000004,
+      "tags": "\"alt_name\"=>\"敦煌站\",\"alt_name:en\"=>\"Dunhuang Station\",\"alt_name:zh\"=>\"敦煌站\",\"name:en\"=>\"Dunhuang\",\"name:zh\"=>\"敦煌\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"wikidata\"=>\"Q11079372\",\"wikipedia\"=>\"zh:敦煌站\"",
+      "score": 6
+    },
+    "六安": {
+      "fid": 35906,
+      "lon": 116.49446370000001,
+      "lat": 31.7169969,
+      "tags": "\"alt_name\"=>\"六安站;六安火车站\",\"alt_name:en\"=>\"Lu'an Railway Station\",\"alt_name:zh\"=>\"六安站;六安火车站\",\"name:en\"=>\"Lu'an\",\"name:zh\"=>\"六安\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wikidata\"=>\"Q17019585\",\"wikipedia\"=>\"zh:六安站\"",
+      "score": 7
+    },
+    "广州": {
+      "fid": 106615,
+      "lon": 113.2522641,
+      "lat": 23.152623300000002,
+      "tags": "\"addr:housenumber\"=>\"159\",\"addr:street\"=>\"环市西路\",\"air_conditioning\"=>\"yes\",\"alt_name\"=>\"广州站;广州火车站;Guangzhou Railway Station\",\"internet_access\"=>\"wlan\",\"name:en\"=>\"Guangzhou\",\"name:zh\"=>\"广州\",\"operator\"=>\"中国铁路广州局集团有限公司\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:ref\"=>\"23693\",\"start_date\"=>\"1974-04-12\",\"train\"=>\"yes\",\"wheelchair\"=>\"yes\",\"wikidata\"=>\"Q1047372\",\"wikipedia\"=>\"zh:广州站\"",
+      "score": 7
+    },
+    "深圳北": {
+      "fid": 37895,
+      "lon": 114.02394690000001,
+      "lat": 22.612036500000002,
+      "tags": "\"air_conditioning\"=>\"yes\",\"alt_name\"=>\"深圳北站;Shenzhen North;Shenzhen North Railway Station;Shenzhenbei Railway Station;Shenzhenbei\",\"internet_access\"=>\"no\",\"name:en\"=>\"Shenzhen North\",\"name:zh\"=>\"深圳北\",\"operator\"=>\"中国铁路广州局集团有限公司\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:ref\"=>\"65860\",\"train\"=>\"yes\",\"wheelchair\"=>\"yes\",\"wikidata\"=>\"Q3272538\"",
+      "score": 7
+    },
+    "全椒": {
+      "fid": 38298,
+      "lon": 118.277426,
+      "lat": 32.0623412,
+      "tags": "\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"wikidata\"=>\"Q10891618\",\"wikipedia\"=>\"zh:全椒站\"",
+      "score": 6
+    },
+    "徐州": {
+      "fid": 39447,
+      "lon": 117.20176210000001,
+      "lat": 34.266395100000004,
+      "tags": "\"addr:housenumber\"=>\"201-37号\",\"addr:street\"=>\"云龙区淮海东路\",\"alt_name\"=>\"徐州站;徐州火车站;Xuzhou Railway Station\",\"name:en\"=>\"Xuzhou\",\"name:zh\"=>\"徐州\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:ref\"=>\"16628\",\"train\"=>\"yes\",\"wikidata\"=>\"Q1056811\",\"wikipedia\"=>\"en:Xuzhou railway station\"",
+      "score": 7
+    },
+    "颍上": {
+      "fid": 41191,
+      "lon": 116.3013822,
+      "lat": 32.741398100000005,
+      "tags": "\"alt_name\"=>\"黄桥站;黄桥火车站;Huangqiao Railway Station\",\"name:en\"=>\"Yingshang\",\"name:zh\"=>\"颍上\",\"railway\"=>\"station\",\"train\"=>\"yes\"",
+      "score": 5
+    },
+    "合肥北城": {
+      "fid": 51332,
+      "lon": 117.24669990000001,
+      "lat": 32.0653535,
+      "tags": "\"alt_name\"=>\"合肥北城站;合肥北城火车站;Hefei Beicheng Railway Station\",\"name:de\"=>\"Hefei Beicheng\",\"name:en\"=>\"Hefei Beicheng\",\"name:zh\"=>\"合肥北城\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\"",
+      "score": 7
+    },
+    "合肥": {
+      "fid": 51334,
+      "lon": 117.3118857,
+      "lat": 31.887865800000004,
+      "tags": "\"alt_name\"=>\"合肥站;合肥火车站;Hefei Railway Station\",\"name:en\"=>\"Hefei\",\"name:zh\"=>\"合肥\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\"",
+      "score": 7
+    },
+    "信阳": {
+      "fid": 51425,
+      "lon": 114.0773267,
+      "lat": 32.130793000000004,
+      "tags": "\"alt_name\"=>\"信阳站;信阳火车站;Xinyang Railway Station\",\"name:de\"=>\"Xinyang\",\"name:en\"=>\"Xinyang\",\"name:zh\"=>\"信阳\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wikidata\"=>\"Q10888068\"",
+      "score": 7
+    },
+    "宣城": {
+      "fid": 51532,
+      "lon": 118.7693067,
+      "lat": 30.9496986,
+      "tags": "\"alt_name\"=>\"宣城站;宣城火车站;Xuancheng Railway Station\",\"name:de\"=>\"Xuancheng\",\"name:en\"=>\"Xuancheng\",\"name:zh\"=>\"宣城\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\"",
+      "score": 7
+    },
+    "郑州东": {
+      "fid": 73893,
+      "lon": 113.7732527,
+      "lat": 34.760193900000004,
+      "tags": "\"alt_name\"=>\"郑州东站;Zhengzhou East;Zhengzhou East Railway Station;Zhengzhoudong Railway Station\",\"alt_name:en\"=>\"Zhengzhou East\",\"name:en\"=>\"Zhengzhoudong\",\"name:zh\"=>\"郑州东\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wikidata\"=>\"Q8070777\",\"wikipedia\"=>\"en:Zhengzhou East railway station\"",
+      "score": 7
+    },
+    "大兴机场": {
+      "fid": 77958,
+      "lon": 116.41055560000001,
+      "lat": 39.5133607,
+      "tags": "\"alt_name\"=>\"大兴机场站;大兴机场火车站;Daxing Airport Railway Station\",\"name:de\"=>\"Flughafen Daxing\",\"name:en\"=>\"Daxing Airport\",\"name:ru\"=>\"Аэропорт Дасин\",\"name:zh\"=>\"大兴机场\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:position:exact:京雄城际\"=>\"47.059\",\"railway:position:exact:怀兴城际\"=>\"139.626\",\"railway:position:exact:津兴城际\"=>\"1.000\",\"railway:ref\"=>\"21158\",\"train\"=>\"yes\",\"wikidata\"=>\"Q65052284\",\"wikipedia\"=>\"zh:大兴机场站\"",
+      "score": 7
+    },
+    "雄安": {
+      "fid": 78049,
+      "lon": 116.1541449,
+      "lat": 39.055576,
+      "tags": "\"alt_name\"=>\"雄安站;雄安火车站\",\"alt_name:en\"=>\"Xiongan Railway Station\",\"alt_name:zh\"=>\"雄安站;雄安火车站\",\"name:de\"=>\"Xiong'an\",\"name:en\"=>\"Xiongan\",\"name:zh\"=>\"雄安\",\"operator\"=>\"中国铁路北京局\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:position:exact:京津城际:下\"=>\"106.402\",\"railway:position:exact:京雄城际:上\"=>\"106.434\",\"railway:position:exact:板西疏解\"=>\"6.734\",\"railway:ref\"=>\"21164\",\"train\"=>\"yes\",\"wikidata\"=>\"Q58075669\",\"wikipedia\"=>\"zh:雄安站\"",
+      "score": 7
+    },
+    "福州": {
+      "fid": 84737,
+      "lon": 119.31563240000001,
+      "lat": 26.1168094,
+      "tags": "\"alt_name\"=>\"福州站;福州火车站;Fuzhou Railway Station\",\"name:en\"=>\"Fuzhou\",\"name:zh\"=>\"福州\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wikidata\"=>\"Q987678\"",
+      "score": 7
+    },
+    "虎门": {
+      "fid": 84966,
+      "lon": 113.66828910000001,
+      "lat": 22.8632157,
+      "tags": "\"alt_name\"=>\"虎门站;虎门火车站;Humen Railway Station\",\"name:en\"=>\"Humen\",\"name:zh\"=>\"虎门\",\"operator\"=>\"中国铁路广州局\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:ref\"=>\"65854\",\"train\"=>\"yes\",\"wheelchair\"=>\"yes\"",
+      "score": 7
+    },
+    "上海": {
+      "fid": 87534,
+      "lon": 121.4511645,
+      "lat": 31.251556800000003,
+      "tags": "\"name:en\"=>\"Shanghai\",\"name:zh\"=>\"上海\",\"name:zh-Hans\"=>\"上海\",\"name:zh-Hant\"=>\"上海\",\"old_name\"=>\"上海东\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:ref\"=>\"30671\",\"train\"=>\"yes\",\"wikidata\"=>\"Q529728\"",
+      "score": 7
+    },
+    "合肥南": {
+      "fid": 89226,
+      "lon": 117.28487510000001,
+      "lat": 31.800298800000004,
+      "tags": "\"int_name\"=>\"Hefei South\",\"name:de\"=>\"Hefei Süd\",\"name:en\"=>\"Hefeinan\",\"name:zh\"=>\"合肥南\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"wikidata\"=>\"Q10916928\",\"wikipedia\"=>\"zh:合肥南站\"",
+      "score": 6
+    },
+    "定西北": {
+      "fid": 90278,
+      "lon": 104.5834279,
+      "lat": 35.6068067,
+      "tags": "\"alt_name\"=>\"Dingxibei;Dingxi Bei\",\"name:en\"=>\"Dingxi North\",\"railway\"=>\"station\"",
+      "score": 4
+    },
+    "湛江西": {
+      "fid": 90395,
+      "lon": 110.28384740000001,
+      "lat": 21.245634900000002,
+      "tags": "\"name:en\"=>\"Zhanjiangxi\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wikidata\"=>\"Q17498915\"",
+      "score": 7
+    },
+    "佛山西": {
+      "fid": 103150,
+      "lon": 113.028338,
+      "lat": 23.0820313,
+      "tags": "\"alt_name\"=>\"佛山西站;Foshan West;Foshan West Railway Station;Foshanxi Railway Station\",\"name:en\"=>\"Foshanxi\",\"name:zh\"=>\"佛山西\",\"operator\"=>\"中国铁路广州局集团有限公司\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"start_date\"=>\"2017-8-18\",\"train\"=>\"yes\",\"wikidata\"=>\"Q9388554\"",
+      "score": 7
+    },
+    "小榄": {
+      "fid": 103195,
+      "lon": 113.2645825,
+      "lat": 22.650559100000002,
+      "tags": "\"alt_name\"=>\"小榄站;小榄火车站;Xiaolan Railway Station\",\"name:en\"=>\"Xiaolan\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wheelchair\"=>\"yes\"",
+      "score": 7
+    },
+    "北京西": {
+      "fid": 104676,
+      "lon": 116.31510270000001,
+      "lat": 39.8936695,
+      "tags": "\"alt_name\"=>\"北京西站;Beijing West;Beijingxi Railway Station;Beijing West Railway Station\",\"name:en\"=>\"Beijingxi\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:position:exact:京广高速京西联\"=>\"2.000\",\"railway:position:exact:京雄城际\"=>\"0.000\",\"railway:position:exact:北京直通:下\"=>\"8.445\",\"railway:position:exact:西长\"=>\"9.278\",\"railway:ref\"=>\"21152\",\"train\"=>\"yes\",\"wikidata\"=>\"Q523887\"",
+      "score": 7
+    },
+    "古北口": {
+      "fid": 105663,
+      "lon": 117.13528230000001,
+      "lat": 40.690578900000006,
+      "tags": "\"alt_name\"=>\"古北口站;古北口火车站;Gubeikou Railway Station\",\"name:en\"=>\"Gubeikou\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:position:exact\"=>\"113.938\",\"railway:ref\"=>\"11675\",\"train\"=>\"yes\",\"wikidata\"=>\"Q10913109\"",
+      "score": 7
+    },
+    "山海关": {
+      "fid": 105765,
+      "lon": 119.7619035,
+      "lat": 39.9985987,
+      "tags": "\"name:en\"=>\"Shanhaiguan\",\"name:ja\"=>\"山海関\",\"name:ko\"=>\"산하이관\",\"name:zh\"=>\"山海关\",\"name:zh-Hans\"=>\"山海关\",\"name:zh-Hant\"=>\"山海關\",\"operator\"=>\"中国铁路\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:position:exact:京哈\"=>\"315.508\",\"railway:position:exact:沈山\"=>\"425.655\",\"railway:position:exact:沈山B:下\"=>\"425.946\",\"railway:position:exact:津山\"=>\"437.093\",\"railway:ref\"=>\"10331\",\"train\"=>\"yes\",\"uic_ref\"=>\"3300012\",\"wikidata\"=>\"Q5971624\",\"wikipedia\"=>\"zh:山海关站\"",
+      "score": 7
+    },
+    "安庆": {
+      "fid": 107449,
+      "lon": 117.06005150000001,
+      "lat": 30.5515037,
+      "tags": "\"alt_name\"=>\"安庆站;安庆火车站;Anqing Railway Station\",\"name:en\"=>\"Anqing\",\"name:zh\"=>\"安庆\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wikidata\"=>\"Q10946707\"",
+      "score": 7
+    },
+    "广州东": {
+      "fid": 107644,
+      "lon": 113.3196207,
+      "lat": 23.153652100000002,
+      "tags": "\"alt_name\"=>\"广州东站;Guangzhou East;Guangzhou East Railway Station;Guangzhoudong Railway Station\",\"name:en\"=>\"Guangzhoudong\",\"name:zh\"=>\"广州东\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:ref\"=>\"23711\",\"train\"=>\"yes\"",
+      "score": 7
+    },
+    "合肥西": {
+      "fid": 110480,
+      "lon": 117.228256,
+      "lat": 31.8739081,
+      "tags": "\"alt_name\"=>\"合肥西站;Hefei West;Hefei West Railway Station;Hefeixi Railway Station\",\"construction\"=>\"yes\",\"name:en\"=>\"Hefeixi\",\"name:zh\"=>\"合肥西\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\"",
+      "score": 7
+    },
+    "淮北": {
+      "fid": 110582,
+      "lon": 116.7971485,
+      "lat": 33.969020400000005,
+      "tags": "\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\"",
+      "score": 7
+    },
+    "阜阳": {
+      "fid": 114372,
+      "lon": 115.8639622,
+      "lat": 32.91667,
+      "tags": "\"alt_name\"=>\"阜阳站;阜阳火车站;Fuyang Railway Station\",\"name:en\"=>\"Fuyang\",\"name:zh\"=>\"阜阳\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wikidata\"=>\"Q11656601\",\"wikipedia\"=>\"zh:阜阳站\"",
+      "score": 7
+    },
+    "郴州": {
+      "fid": 199490,
+      "lon": 113.0277796,
+      "lat": 25.811243500000003,
+      "tags": "\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wikidata\"=>\"Q11318579\",\"wikipedia\"=>\"zh:郴州站\"",
+      "score": 7
+    },
+    "卫辉": {
+      "fid": 115951,
+      "lon": 114.05547200000001,
+      "lat": 35.431857400000005,
+      "tags": "\"alt_name\"=>\"卫辉站;卫辉火车站;Weihui Railway Station\",\"name:en\"=>\"Weihui\",\"name:zh\"=>\"卫辉\",\"old_name\"=>\"汲县站\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wikipedia\"=>\"zh:卫辉站\"",
+      "score": 7
+    },
+    "郴州西": {
+      "fid": 116680,
+      "lon": 112.9645311,
+      "lat": 25.739132,
+      "tags": "\"name:en\"=>\"Chenzhou West\",\"name:zh\"=>\"郴州西\",\"official_name\"=>\"郴州西站\",\"official_name:en\"=>\"Chenzhou West Railway Station\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wikidata\"=>\"Q5091565\",\"wikipedia\"=>\"zh:郴州西站\"",
+      "score": 7
+    },
+    "漯河西": {
+      "fid": 116996,
+      "lon": 113.9575982,
+      "lat": 33.5743677,
+      "tags": "\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\"",
+      "score": 7
+    },
+    "湛江": {
+      "fid": 117776,
+      "lon": 110.3824986,
+      "lat": 21.189790000000002,
+      "tags": "\"alt_name\"=>\"湛江站;湛江火车站;Zhanjiang Railway Station;Zhanjiang Station\",\"name:en\"=>\"Zhanjiang\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"wikidata\"=>\"Q11563372\",\"wikipedia\"=>\"zh:湛江站\"",
+      "score": 6
+    },
+    "滁州北": {
+      "fid": 118009,
+      "lon": 118.3225366,
+      "lat": 32.310393000000005,
+      "tags": "\"public_transport\"=>\"station\",\"railway\"=>\"station\"",
+      "score": 6
+    },
+    "周口": {
+      "fid": 122464,
+      "lon": 114.65978770000001,
+      "lat": 33.5789075,
+      "tags": "\"network\"=>\"中国铁路\",\"operator\"=>\"中国铁路武汉局集团有限公司\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"start_date\"=>\"2013年\",\"wheelchair\"=>\"yes\",\"wikidata\"=>\"Q22099909\",\"wikipedia\"=>\"zh:周口站\"",
+      "score": 6
+    },
+    "芜湖": {
+      "fid": 125452,
+      "lon": 118.38600190000001,
+      "lat": 31.349784000000003,
+      "tags": "\"alt_name\"=>\"芜湖站;芜湖火车站;Wuhu Railway Station\",\"name:en\"=>\"Wuhu\",\"name:ja\"=>\"蕪湖\",\"name:zh\"=>\"芜湖\",\"name:zh-Hant\"=>\"蕪湖\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"usage\"=>\"main\"",
+      "score": 5
+    },
+    "孝感北": {
+      "fid": 125783,
+      "lon": 114.21598610000001,
+      "lat": 31.588186900000004,
+      "tags": "\"name:en\"=>\"Xiaogan North\",\"public_transport\"=>\"station\",\"railway\"=>\"station\"",
+      "score": 6
+    },
+    "白洋淀": {
+      "fid": 125840,
+      "lon": 115.86854840000001,
+      "lat": 39.0686429,
+      "tags": "\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:position:exact\"=>\"115.094\",\"railway:ref\"=>\"20387\"",
+      "score": 6
+    },
+    "大同南": {
+      "fid": 126017,
+      "lon": 113.3581164,
+      "lat": 40.0435567,
+      "tags": "\"alt_name\"=>\"大同南站;Datong South;Datong South Railway Station;Datongnan Railway Station\",\"alt_name:en\"=>\"Datong South\",\"name:en\"=>\"Datongnan\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wheelchair\"=>\"yes\",\"wikidata\"=>\"Q73390026\",\"wikipedia\"=>\"zh:大同南站\"",
+      "score": 7
+    },
+    "武威南": {
+      "fid": 126145,
+      "lon": 102.73552810000001,
+      "lat": 37.8150667,
+      "tags": "\"name:en\"=>\"Wuweinan Railway Station\",\"railway\"=>\"station\",\"railway:position:exact:兰新\"=>\"257.434\",\"railway:ref\"=>\"41690\",\"train\"=>\"yes\"",
+      "score": 5
+    },
+    "周口东": {
+      "fid": 126591,
+      "lon": 114.7407189,
+      "lat": 33.6468018,
+      "tags": "\"addr:city\"=>\"周口市\",\"addr:district\"=>\"东新区\",\"addr:postcode\"=>\"466000\",\"addr:province\"=>\"河南省\",\"addr:street\"=>\"高铁大道\",\"air_conditioning\"=>\"yes\",\"alt_name\"=>\"周口东站;Zhoukou East;Zhoukou East Railway Station;Zhoukoudong Railway Station\",\"construction\"=>\"station\",\"name:en\"=>\"Zhoukoudong\",\"name:en2\"=>\"Zhoukou East Railway Station\",\"name:ja\"=>\"周口東駅\",\"name:zh\"=>\"周口东\",\"name:zh-Hans\"=>\"周口东站\",\"name:zh-Hant\"=>\"周口東站\",\"name:zh-Latn-pinyin\"=>\"Zhōu Kǒu Dōng Zhàn\",\"operator\"=>\"中国铁路郑州局集团有限公司\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"start_date\"=>\"2019年12月1日\",\"train\"=>\"yes\",\"wheelchair\"=>\"yes\",\"wikidata\"=>\"Q77252915\"",
+      "score": 7
+    },
+    "铜陵": {
+      "fid": 129986,
+      "lon": 117.85627840000001,
+      "lat": 30.921185200000004,
+      "tags": "\"alt_name\"=>\"铜陵站\",\"name:en\"=>\"Tongling\",\"name:zh\"=>\"铜陵\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\"",
+      "score": 7
+    },
+    "武威": {
+      "fid": 130068,
+      "lon": 102.62218060000001,
+      "lat": 37.9036926,
+      "tags": "\"addr:city\"=>\"武威市\",\"addr:district\"=>\"凉州区\",\"addr:postcode\"=>\"733000\",\"addr:province\"=>\"甘肃省\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\"",
+      "score": 7
+    },
+    "泾县": {
+      "fid": 130074,
+      "lon": 118.38349240000001,
+      "lat": 30.660714700000003,
+      "tags": "\"alt_name\"=>\"泾县站\",\"name:zh\"=>\"泾县\",\"name:zh-Hans\"=>\"泾县\",\"name:zh-Hant\"=>\"涇縣\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\",\"wikidata\"=>\"Q23823704\"",
+      "score": 7
+    },
+    "湛江北": {
+      "fid": 135549,
+      "lon": 110.3533215,
+      "lat": 21.2210582,
+      "tags": "\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:position:exact:广湛高速\"=>\"400.119\",\"train\"=>\"yes\"",
+      "score": 7
+    },
+    "颍上北": {
+      "fid": 147362,
+      "lon": 116.20589550000001,
+      "lat": 32.68115,
+      "tags": "\"public_transport\"=>\"station\",\"railway\"=>\"station\"",
+      "score": 6
+    },
+    "广州白云": {
+      "fid": 188471,
+      "lon": 113.2405097,
+      "lat": 23.194037,
+      "tags": "\"name:en\"=>\"Guangzhou Baiyun\",\"name:yue\"=>\"廣州白雲\",\"name:zh\"=>\"广州白云\",\"name:zh-Hans\"=>\"广州白云\",\"name:zh-Hant\"=>\"廣州白雲\",\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"railway:ref\"=>\"23475\",\"train\"=>\"yes\",\"wheelchair\"=>\"yes\",\"wikidata\"=>\"Q112862260\",\"wikipedia\"=>\"zh:广州白云站\"",
+      "score": 7
+    },
+    "蔡家崖": {
+      "fid": 227270,
+      "lon": 111.01546400000001,
+      "lat": 38.493298200000005,
+      "tags": "\"public_transport\"=>\"station\",\"railway\"=>\"station\",\"train\"=>\"yes\"",
+      "score": 7
+    }
+  },
+  "missing_stations": [],
+  "duplicate_station_names": {
+    "郑州": 3,
+    "太原": 3,
+    "新乡": 3,
+    "大同": 2,
+    "深圳": 7,
+    "上海南": 3,
+    "清河": 10,
+    "北京北": 11,
+    "柳州": 17,
+    "驻马店": 2,
+    "深圳东": 6,
+    "驻马店西": 3,
+    "韶关": 5,
+    "汉口": 4,
+    "漯河": 3,
+    "枣庄": 2,
+    "东莞": 5,
+    "广州南": 29,
+    "杭州东": 29,
+    "广州": 10,
+    "深圳北": 21,
+    "信阳": 3,
+    "大兴机场": 2,
+    "佛山西": 24,
+    "古北口": 2,
+    "郴州": 5,
+    "广州白云": 3
+  }
+}
