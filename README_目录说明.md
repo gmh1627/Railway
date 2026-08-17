@@ -8,7 +8,6 @@
 - `制图工具/scripts/maps`：QGIS Python 构建与校验脚本。
 - `制图工具/数据源/GeoPackage`：制图使用的 GeoPackage 数据库。
 - `制图工具/数据源/Shapefile`：按图层名称归档的 Shapefile 数据。
-- `制图工具/数据源/OSM`：铁路及全国 OSM PBF 原始数据。
 - `制图工具/artifacts`：早期滁州马鞍山项目的完整工作包和瓦片缓存。
 - `制图工具/symbology-style.db`：QGIS 样式库。
 - `QGIS旅行铁路地图制图流程.md`：统一制图规范；`旧制图文档` 保留早期分篇说明。
