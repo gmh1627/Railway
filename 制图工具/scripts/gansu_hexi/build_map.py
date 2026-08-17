@@ -41,7 +41,7 @@ from qgis.core import (
 
 
 RAILWAY_ROOT = Path(r"F:\Desktop\Railway")
-COMMON_DIR = RAILWAY_ROOT / "制图工具" / "scripts" / "maps" / "regional_overviews"
+COMMON_DIR = RAILWAY_ROOT / "制图工具" / "scripts" / "regional_overviews"
 sys.path.insert(0, str(COMMON_DIR))
 import build_overviews as ov  # noqa: E402
 

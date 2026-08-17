@@ -4,6 +4,7 @@
 *.shp binary
 *.shx binary
 *.dbf binary
+*.db binary
 *.md text eol=lf
 *.py text eol=lf
 *.ps1 text eol=lf

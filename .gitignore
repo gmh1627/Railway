@@ -6,9 +6,15 @@ __pycache__/
 .codex_maps_link/
 
 地图输出/历史版本/
+地图输出/**/构建报告.json
+地图输出/**/校验报告.json
+地图输出/**/线路构建报告.json
+地图输出/工程可打开性校验.json
 制图工具/临时数据/
 制图工具/日志/
 制图工具/artifacts/
+制图工具/scripts/chuzhou_maanshan/
+制图工具/scripts/xiaocheng3_redesign/
 制图工具/数据源/*
 !制图工具/数据源/Shapefile/
 !制图工具/数据源/Shapefile/**
@@ -16,5 +22,4 @@ __pycache__/
 旧图/
 旧制图文档/
 铁路底图_20260101/
-web/
-symbology-style.db
+/symbology-style.db

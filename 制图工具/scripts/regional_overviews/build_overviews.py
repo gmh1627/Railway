@@ -64,7 +64,6 @@ ROUTE_GPKG = NATIONAL_OUTPUT / "铁路轨迹.gpkg"
 MAP_DATA_GPKG = NATIONAL_OUTPUT / "全国足迹_数据.gpkg"
 CITY_SOURCE = RAILWAY_ROOT / "city" / "city.json"
 PROVINCE_SOURCE = RAILWAY_ROOT / "province" / "province.json"
-RAIL_NETWORK = DATA_ROOT / "GeoPackage" / "travel_map_home2_min_gan.gpkg"
 
 
 CITY_POINTS = {
@@ -1427,7 +1426,7 @@ def main() -> int:
     output_root = args.output_root.resolve()
     output_root.mkdir(parents=True, exist_ok=True)
     selected = [spec for spec in SPECS if not args.only or spec.key in args.only]
-    sources = {ROUTE_GPKG, MAP_DATA_GPKG, CITY_SOURCE, PROVINCE_SOURCE, RAIL_NETWORK}
+    sources = {ROUTE_GPKG, MAP_DATA_GPKG, CITY_SOURCE, PROVINCE_SOURCE}
     sources.update(focus.source for spec in selected for focus in spec.focus_areas)
     for source in sources:
         if not source.exists():

@@ -68,7 +68,6 @@ SHAANXI = RAILWAY_ROOT / "province" / "shaanxi.geojson"
 LVLIANG = RAILWAY_ROOT / "city" / "lvliang.geojson"
 XINZHOU = RAILWAY_ROOT / "city" / "xinzhou.json"
 YULIN = RAILWAY_ROOT / "city" / "yulin.json"
-RAIL_DATA = DATA_ROOT / "GeoPackage" / "travel_map_home2_min_gan.gpkg"
 TRIP_ROUTE = DATA_ROOT / "Shapefile" / "trip_route_ss" / "trip_route_ss.shp"
 
 PAGE_SIZE = (300.0, 210.0)

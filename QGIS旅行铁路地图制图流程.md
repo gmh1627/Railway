@@ -2,7 +2,7 @@
 
 本规范适用于博客中的区域旅行线路图、全国足迹图、全国铁路图和航线图。目标是让不同文章的地图保持同一套视觉语言，同时保留可编辑的 QGIS 工程和矢量数据。
 
-当前版本：`2026-08-17`。本文以 `制图工具/scripts/maps` 中的现行脚本和 `地图输出` 中的发布工程为准，历史版本目录中的样式不再作为新图规范。
+当前版本：`2026-08-17`。本文以 `制图工具/scripts` 中的现行脚本和 `地图输出` 中的发布工程为准，历史版本目录中的样式不再作为新图规范。
 
 ## 1. 信息层级
 
@@ -205,14 +205,10 @@
 ```text
 F:\Desktop\Railway\
 ├─ 制图工具\
-│  ├─ scripts\maps\
+│  ├─ scripts\
 │  ├─ 数据源\
 │  │  ├─ GeoPackage\
-│  │  ├─ Shapefile\
-│  │  └─ OSM\
-│  ├─ 日志\
-│  ├─ 临时数据\
-│  ├─ artifacts\
+│  │  └─ Shapefile\
 │  └─ symbology-style.db
 ├─ 地图输出\
 │  ├─ 全国专题图\
@@ -225,6 +221,8 @@ F:\Desktop\Railway\
 
 行政区源数据保留在 `city`、`province`，铁路基础数据统一放在 `制图工具/数据源`。区域图以市域数据作为填色和边界的共同几何来源，省界由完整市域集合派生；`province` 中的独立轮廓只作为源数据或历史兼容数据，不能与市域轮廓叠加到同一发布工程。现行构建脚本使用新路径，重新导出的发布工程不得引用根目录散落的 `.gpkg`、`.shp` 或 `.pbf`。
 
+`制图工具/数据源/GeoPackage/travel_map_home2_min_gan.gpkg` 是全国铁路 OSM 线和点的本地原始库，约 `213 MB`。它仍供全国路线构建和源数据检查脚本使用，但超过 GitHub 普通仓库的单文件限制，不纳入版本库。发布工程所需图层应继续写入各自输出目录的小型 `.gpkg`，以便随成果上传和编辑。
+
 ## 12. 用代码操作 QGIS
 
 脚本通过 QGIS 自带 Python 启动，创建图层、设置符号、创建打印布局并导出 PNG。不要使用普通系统 Python 直接运行含 `qgis.core` 的脚本。
@@ -233,14 +231,14 @@ PowerShell 示例：
 
 ```powershell
 & 'E:\QGIS 3.44.8\bin\python-qgis-ltr.bat' `
-  'F:\Desktop\Railway\制图工具\scripts\maps\regional_overviews\build_overviews.py'
+  'F:\Desktop\Railway\制图工具\scripts\regional_overviews\build_overviews.py'
 ```
 
 只重建一张区域图：
 
 ```powershell
 & 'E:\QGIS 3.44.8\bin\python-qgis-ltr.bat' `
-  'F:\Desktop\Railway\制图工具\scripts\maps\regional_overviews\build_overviews.py' `
+  'F:\Desktop\Railway\制图工具\scripts\regional_overviews\build_overviews.py' `
   --only home3
 ```
 
@@ -248,31 +246,31 @@ PowerShell 示例：
 
 ```powershell
 & 'E:\QGIS 3.44.8\bin\python-qgis-ltr.bat' `
-  'F:\Desktop\Railway\制图工具\scripts\maps\flight_history\build_flight_map.py'
+  'F:\Desktop\Railway\制图工具\scripts\flight_history\build_flight_map.py'
 ```
 
 “走河西”区域图：
 
 ```powershell
 & 'E:\QGIS 3.44.8\bin\python-qgis-ltr.bat' `
-  'F:\Desktop\Railway\制图工具\scripts\maps\gansu_hexi\build_map.py'
+  'F:\Desktop\Railway\制图工具\scripts\gansu_hexi\build_map.py'
 ```
 
 “山陕漫游”和“甘肃行旅”使用各自脚本，但边界、标签和填色规则必须与通用区域图一致：
 
 ```powershell
 & 'E:\QGIS 3.44.8\bin\python-qgis-ltr.bat' `
-  'F:\Desktop\Railway\制图工具\scripts\maps\shanxi_shaanxi_redesign\build_redesign.py'
+  'F:\Desktop\Railway\制图工具\scripts\shanxi_shaanxi_redesign\build_redesign.py'
 
 & 'E:\QGIS 3.44.8\bin\python-qgis-ltr.bat' `
-  'F:\Desktop\Railway\制图工具\scripts\maps\gansu_itinerary\build_map.py'
+  'F:\Desktop\Railway\制图工具\scripts\gansu_itinerary\build_map.py'
 ```
 
 上大学前去过的城市图：
 
 ```powershell
 & 'E:\QGIS 3.44.8\bin\python-qgis-ltr.bat' `
-  'F:\Desktop\Railway\制图工具\scripts\maps\pre_university\build_map.py'
+  'F:\Desktop\Railway\制图工具\scripts\pre_university\build_map.py'
 ```
 
 脚本导出后再运行同目录的 `validate_*.py`。校验至少覆盖：图层有效性、路线和站点数量、主图/南海插图数量、图例与比例尺位置、PNG 分辨率。区域图还要检查：
@@ -286,7 +284,7 @@ PowerShell 示例：
 
 ```powershell
 & 'E:\QGIS 3.44.8\bin\python-qgis-ltr.bat' `
-  'F:\Desktop\Railway\制图工具\scripts\maps\validate_projects_openable.py'
+  'F:\Desktop\Railway\制图工具\scripts\validate_projects_openable.py'
 ```
 
 如果打开旧工程时主画布看似空白，先打开“项目 > 布局管理器”查看已经保存的打印布局，或在图层面板右击“实际铁路行程”并选择“缩放到图层”。这通常不是数据丢失，而是旧脚本只保存了布局范围，没有保存 QGIS 主画布的默认范围。新版脚本会写入 `setDefaultViewExtent`、`setPresetFullExtent` 和项目主目录；数据源同时使用相对路径，移动整个输出文件夹后仍可正常读取。
