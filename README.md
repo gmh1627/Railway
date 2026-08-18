@@ -8,6 +8,7 @@
 
 - [全国铁路路线](地图输出/全国专题图/全国足迹/铁路路线.png)
 - [去过的省市](地图输出/全国专题图/全国足迹/去过的省市.png)
+- [K158 路线图](地图输出/全国专题图/K158路线图/K158路线图.png)
 - [北京及周边铁路行迹](地图输出/全国专题图/铁路枢纽局部图/北京及周边铁路行迹.png)
 - [合肥及周边铁路行迹](地图输出/全国专题图/铁路枢纽局部图/合肥及周边铁路行迹.png)
 - [广州及周边铁路行迹](地图输出/全国专题图/铁路枢纽局部图/广州及周边铁路行迹.png)
@@ -40,7 +41,9 @@
 
 ## 本地数据
 
-`制图工具/数据源/GeoPackage/travel_map_home2_min_gan.gpkg` 约 213 MB，包含全国铁路 OSM 线与点，是 `travel_history/build_routes.py` 和 `travel_history/inspect_sources.py` 的原始数据源。它超过 GitHub 普通仓库的单文件限制，只在本机保留并由 `.gitignore` 排除；运行这两个脚本前需要确保该文件存在。
+`制图工具/数据源/GeoPackage/travel_map_home2_min_gan.gpkg` 约 213 MB，包含全国铁路 OSM 线与点，是 `travel_history/build_routes.py`、`travel_history/inspect_sources.py` 和计划行程选路脚本的原始数据源。它超过 GitHub 普通仓库的单文件限制，只在本机保留并由 `.gitignore` 排除；运行这些脚本前需要确保该文件存在。
+
+`k158_planned` 是独立的计划行程数据集，使用中国铁路 12306 的 `2026-08-23` 时刻表绘制，不写入全国足迹的既有乘车记录、次数、里程、城市或车站统计。
 
 早期的 `travel_map.gpkg` 没有现行脚本引用，已删除。已发布地图目录中的专题 `.gpkg` 是体积较小、可继续编辑的工程数据，仍纳入仓库。
 

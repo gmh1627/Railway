@@ -194,6 +194,10 @@ PREFERRED_NETWORK_OVERRIDES: dict[str, str] = {}
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
+    parser.add_argument("--input-json", type=Path, default=PARSED)
+    parser.add_argument("--matches-json", type=Path, default=MATCH_REPORT)
+    parser.add_argument("--output-gpkg", type=Path)
+    parser.add_argument("--report-json", type=Path)
     return parser.parse_args()
 
 
@@ -343,11 +347,19 @@ def main() -> int:
     global OUTPUT_DIR, OUTPUT_GPKG, ROUTE_REPORT
     args = parse_args()
     OUTPUT_DIR = args.output_dir.resolve()
-    OUTPUT_GPKG = OUTPUT_DIR / "铁路轨迹.gpkg"
-    ROUTE_REPORT = OUTPUT_DIR / "线路构建报告.json"
+    OUTPUT_GPKG = (
+        args.output_gpkg.resolve()
+        if args.output_gpkg
+        else OUTPUT_DIR / "铁路轨迹.gpkg"
+    )
+    ROUTE_REPORT = (
+        args.report_json.resolve()
+        if args.report_json
+        else OUTPUT_DIR / "线路构建报告.json"
+    )
     started = time.monotonic()
-    payload = json.loads(PARSED.read_text(encoding="utf-8"))
-    matches = json.loads(MATCH_REPORT.read_text(encoding="utf-8"))
+    payload = json.loads(args.input_json.resolve().read_text(encoding="utf-8"))
+    matches = json.loads(args.matches_json.resolve().read_text(encoding="utf-8"))
     station_matches = matches["station_matches"]
     station_coords = {
         name: (float(value["lon"]), float(value["lat"]))
@@ -892,20 +904,27 @@ def main() -> int:
             preferred_network = PREFERRED_NETWORK_OVERRIDES.get(
                 record["train"], service_class
             )
+            reported_waypoints = record.get(
+                "control_points", ROUTE_WAYPOINTS.get(record["seq"], [])
+            )
+            shaping_waypoints = record.get(
+                "shaping_points", reported_waypoints
+            )
             reported_control_names = [
                 record["origin"],
-                *ROUTE_WAYPOINTS.get(record["seq"], []),
+                *reported_waypoints,
                 record["destination"],
             ]
             control_names = [
                 record["origin"],
-                *ROUTE_SHAPING_WAYPOINTS.get(
-                    record["seq"], ROUTE_WAYPOINTS.get(record["seq"], [])
+                *record.get(
+                    "shaping_points",
+                    ROUTE_SHAPING_WAYPOINTS.get(record["seq"], shaping_waypoints),
                 ),
                 record["destination"],
             ]
             details = []
-            if record["seq"] in ROUTE_WAYPOINTS:
+            if reported_waypoints:
                 for control_start, control_end in zip(control_names, control_names[1:]):
                     details.extend(
                         dense_section_details(
@@ -941,8 +960,12 @@ def main() -> int:
 
             geometries = [feature_geometry(detail) for detail in details]
             route_km = sum(detail["length_km"] for detail in details)
-            ratio = route_km / record["distance_km"] if record["distance_km"] else 0
-            status = "ok" if 0.72 <= ratio <= 1.18 else "review"
+            ratio = route_km / record["distance_km"] if record["distance_km"] else None
+            status = (
+                "unchecked"
+                if ratio is None
+                else "ok" if 0.72 <= ratio <= 1.18 else "review"
+            )
             track_counts = Counter(detail["track_class"] for detail in details)
             collected = QgsGeometry.collectGeometry(geometries)
             output = QgsFeature()
@@ -957,7 +980,7 @@ def main() -> int:
                     service_class,
                     record["distance_km"],
                     round(route_km, 1),
-                    round(ratio, 3),
+                    round(ratio, 3) if ratio is not None else None,
                     len(details),
                     status,
                 ]
@@ -969,7 +992,7 @@ def main() -> int:
                     "preferred_network": preferred_network,
                     "control_points": reported_control_names[1:-1],
                     "route_km": round(route_km, 1),
-                    "ratio": round(ratio, 3),
+                    "ratio": round(ratio, 3) if ratio is not None else None,
                     "edge_count": len(details),
                     "track_counts": dict(track_counts),
                     "status": status,
@@ -980,7 +1003,8 @@ def main() -> int:
                 }
             )
 
-        OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+        OUTPUT_GPKG.parent.mkdir(parents=True, exist_ok=True)
+        ROUTE_REPORT.parent.mkdir(parents=True, exist_ok=True)
         write_routes(route_features, OUTPUT_GPKG)
         report = {
             "network_extent": [min_lon, min_lat, max_lon, max_lat],
