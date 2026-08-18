@@ -6,7 +6,13 @@ import json
 from pathlib import Path
 
 from qgis.PyQt.QtGui import QImage
-from qgis.core import QgsApplication, QgsLayoutItemLabel, QgsLayoutItemMap, QgsProject
+from qgis.core import (
+    QgsApplication,
+    QgsCoordinateTransform,
+    QgsLayoutItemLabel,
+    QgsLayoutItemMap,
+    QgsProject,
+)
 
 
 ROOT = Path(r"F:\Desktop\Railway")
@@ -17,6 +23,8 @@ PROJECT = OUTPUT_DIR / "K158路线图.qgz"
 IMAGE = OUTPUT_DIR / "K158路线图.png"
 EXPECTED_LAYERS = {
     "省级行政区": 35,
+    "起点城市": 1,
+    "终点城市": 1,
     "K158路线": 1,
     "K158经停站": 31,
     "经停站标签": 29,
@@ -86,12 +94,27 @@ def main() -> int:
             maps = [item for item in layouts[0].items() if isinstance(item, QgsLayoutItemMap)]
             if len(maps) != 1 or maps[0].id() != "主图":
                 errors.append("主图地图框缺失或重复")
+            else:
+                map_extent = maps[0].extent()
+                for city_name in ("起点城市", "终点城市"):
+                    city_layer = project.mapLayersByName(city_name)[0]
+                    transform = QgsCoordinateTransform(
+                        city_layer.crs(), project.crs(), project.transformContext()
+                    )
+                    city_extent = transform.transformBoundingBox(city_layer.extent())
+                    if not (
+                        map_extent.xMinimum() <= city_extent.xMinimum()
+                        and map_extent.yMinimum() <= city_extent.yMinimum()
+                        and map_extent.xMaximum() >= city_extent.xMaximum()
+                        and map_extent.yMaximum() >= city_extent.yMaximum()
+                    ):
+                        errors.append(f"{city_name}轮廓未完整进入主图")
             text = "\n".join(
                 item.text()
                 for item in layouts[0].items()
                 if isinstance(item, QgsLayoutItemLabel)
             )
-            for required in ("K158路线图", "09:54 湛江出发", "22:48 北京西到达"):
+            for required in ("K158路线图", "09:54  湛江出发", "22:48  抵达北京西"):
                 if required not in text:
                     errors.append(f"布局文字缺少：{required}")
             if len(

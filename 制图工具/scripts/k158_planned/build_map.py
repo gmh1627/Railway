@@ -53,6 +53,7 @@ OUTPUT_GPKG = OUTPUT_DIR / "K158路线图_数据.gpkg"
 OUTPUT_QGZ = OUTPUT_DIR / "K158路线图.qgz"
 OUTPUT_PNG = OUTPUT_DIR / "K158路线图.png"
 PROVINCE_SOURCE = RAILWAY_ROOT / "province" / "province.json"
+CITY_SOURCE = RAILWAY_ROOT / "city" / "city.json"
 
 PAGE_SIZE = (280.0, 400.0)
 MAP_FRAME = (12.0, 42.0, 256.0, 346.0)
@@ -213,13 +214,13 @@ def build_station_layers(
         station_features.append(station)
 
         side = -1 if stop["no"] % 2 else 1
-        label_lon = lon + side * 0.58
+        label_lon = lon + side * 0.38
         label_lat = lat
         special_offsets = {
-            1: (1.18, -0.28),
-            2: (0.72, 0.13),
-            3: (-0.72, 0.12),
-            31: (-1.18, 0.10),
+            1: (0.48, -0.12),
+            2: (0.42, 0.08),
+            3: (-0.44, 0.08),
+            31: (-0.52, 0.05),
         }
         if stop["no"] in special_offsets:
             lon_offset, lat_offset = special_offsets[stop["no"]]
@@ -258,6 +259,19 @@ def style_provinces(layer: QgsVectorLayer) -> None:
             "outline_width_unit": "MM",
         }
     )
+    layer.setRenderer(QgsSingleSymbolRenderer(symbol))
+
+
+def style_city_highlight(layer: QgsVectorLayer, fill: str, outline: str) -> None:
+    symbol = QgsFillSymbol.createSimple(
+        {
+            "color": fill,
+            "outline_color": outline,
+            "outline_width": "0.32",
+            "outline_width_unit": "MM",
+        }
+    )
+    symbol.setOpacity(0.58)
     layer.setRenderer(QgsSingleSymbolRenderer(symbol))
 
 
@@ -400,12 +414,12 @@ def build_layout(
     )
     add_label(
         layout,
-        "2026.08.23 09:54 湛江出发  ·  08.24 22:48 北京西到达",
+        "8月23日 09:54  湛江出发\n8月24日 22:48  抵达北京西",
         12,
-        27,
+        25,
         256,
-        8,
-        9.5,
+        15,
+        9.2,
         "华文楷体",
         color="#555555",
         bold=True,
@@ -459,6 +473,14 @@ def main() -> int:
         provinces = copy_source_layer(
             project, province_source, "省级行政区", overwrite_file=True
         )
+        origin_city_source = load_vector(
+            CITY_SOURCE, "起点城市源数据", subset='"name" = \'湛江市\''
+        )
+        destination_city_source = load_vector(
+            PROVINCE_SOURCE, "终点城市源数据", subset='"name" = \'北京市\''
+        )
+        origin_city = copy_source_layer(project, origin_city_source, "起点城市")
+        destination_city = copy_source_layer(project, destination_city_source, "终点城市")
         route = copy_source_layer(
             project, route_source, "K158路线", merge_lines=True
         )
@@ -467,6 +489,8 @@ def main() -> int:
         )
 
         style_provinces(provinces)
+        style_city_highlight(origin_city, "#DDB6AA", "#9A5B54")
+        style_city_highlight(destination_city, "#AFC9D6", "#4B7480")
         style_route(route)
         style_stations(stations)
         style_label_layer(intermediate_labels)
@@ -477,6 +501,8 @@ def main() -> int:
             intermediate_labels,
             stations,
             route,
+            destination_city,
+            origin_city,
             provinces,
         ]
         project.layerTreeRoot().setHasCustomLayerOrder(True)
@@ -490,6 +516,12 @@ def main() -> int:
         label_source_extent.combineExtentWith(intermediate_labels.extent())
         labels_extent = transform.transformBoundingBox(label_source_extent)
         route_extent.combineExtentWith(labels_extent)
+        route_extent.combineExtentWith(
+            transform.transformBoundingBox(origin_city.extent())
+        )
+        route_extent.combineExtentWith(
+            transform.transformBoundingBox(destination_city.extent())
+        )
         map_extent = fit_extent(
             route_extent, MAP_FRAME[2] / MAP_FRAME[3], margin=0.025
         )
