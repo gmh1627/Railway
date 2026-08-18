@@ -43,6 +43,13 @@ def main() -> int:
             invalid = [layer.name() for layer in project.mapLayers().values() if not layer.isValid()]
             if invalid:
                 item_errors.append("无效图层：" + "、".join(invalid))
+            shapefile_layers = sorted(
+                layer.name()
+                for layer in project.mapLayers().values()
+                if layer.source().split("|", 1)[0].lower().endswith(".shp")
+            )
+            if shapefile_layers:
+                item_errors.append("仍引用 Shapefile：" + "、".join(shapefile_layers))
             if "区域线路图" in path.parts:
                 forbidden = sorted(
                     {"背景铁路", "背景铁路复线", "OSM 淡色底图", "OpenStreetMap"}

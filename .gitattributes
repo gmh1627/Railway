@@ -1,9 +1,6 @@
 *.gpkg binary
 *.qgz binary
 *.png binary
-*.shp binary
-*.shx binary
-*.dbf binary
 *.db binary
 *.md text eol=lf
 *.py text eol=lf

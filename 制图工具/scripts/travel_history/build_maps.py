@@ -53,8 +53,8 @@ PROVINCE_JSON = Path(r"F:\Desktop\Railway\province\province.json")
 CITY_JSON = Path(r"F:\Desktop\Railway\city\city.json")
 DEFAULT_ROUTE_GPKG = Path(r"F:\Desktop\Railway\地图输出\全国专题图\全国足迹\铁路轨迹.gpkg")
 ROUTE_GPKG = DEFAULT_ROUTE_GPKG
-LEGACY_ROUTE = Path(
-    r"F:\Desktop\Railway\制图工具\数据源\Shapefile\railway\railway.shp"
+ROUTE_SOURCES_GPKG = Path(
+    r"F:\Desktop\Railway\制图工具\数据源\GeoPackage\route_sources.gpkg"
 )
 DEFAULT_OUTPUT_DIR = Path(r"F:\Desktop\Railway\地图输出\全国专题图\全国足迹")
 OUTPUT_DIR = DEFAULT_OUTPUT_DIR
@@ -717,8 +717,12 @@ def main() -> int:
         style_stations(stations)
 
         legacy = None
-        if LEGACY_ROUTE.exists():
-            legacy = QgsVectorLayer(str(LEGACY_ROUTE), "原铁路轨迹（参考）", "ogr")
+        if ROUTE_SOURCES_GPKG.exists():
+            legacy = QgsVectorLayer(
+                f"{ROUTE_SOURCES_GPKG}|layername=railway",
+                "原铁路轨迹（参考）",
+                "ogr",
+            )
             if legacy.isValid():
                 project.addMapLayer(legacy)
                 project.layerTreeRoot().findLayer(legacy.id()).setItemVisibilityChecked(False)

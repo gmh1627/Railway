@@ -68,7 +68,7 @@ SHAANXI = RAILWAY_ROOT / "province" / "shaanxi.geojson"
 LVLIANG = RAILWAY_ROOT / "city" / "lvliang.geojson"
 XINZHOU = RAILWAY_ROOT / "city" / "xinzhou.json"
 YULIN = RAILWAY_ROOT / "city" / "yulin.json"
-TRIP_ROUTE = DATA_ROOT / "Shapefile" / "trip_route_ss" / "trip_route_ss.shp"
+ROUTE_SOURCES_GPKG = DATA_ROOT / "GeoPackage" / "route_sources.gpkg"
 
 PAGE_SIZE = (300.0, 210.0)
 MAP_FRAME = (12.0, 40.0, 276.0, 147.0)
@@ -100,7 +100,7 @@ STATION_COORDS = {
     "神木": (110.4490968, 38.9367271),
     "蔡家崖": (111.0154640, 38.4932982),
 }
-ROUTE_METADATA_BY_FID = {
+ROUTE_METADATA_BY_SOURCE_FID = {
     0: ("conventional", "K8204", "神木-府谷"),
     1: ("conventional", "K609", "北京丰台-太原"),
     2: ("conventional", "K609", "北京丰台-太原"),
@@ -576,10 +576,10 @@ def build_trip_route_layer(project: QgsProject, source: QgsVectorLayer) -> QgsVe
     features = []
     seen_ids = set()
     for source_feature in source.getFeatures():
-        source_id = int(source_feature.id())
-        if source_id not in ROUTE_METADATA_BY_FID:
+        source_id = int(source_feature["source_fid"])
+        if source_id not in ROUTE_METADATA_BY_SOURCE_FID:
             raise RuntimeError(f"Unclassified Shanxi-Shaanxi route feature: {source_id}")
-        service, train, segment = ROUTE_METADATA_BY_FID[source_id]
+        service, train, segment = ROUTE_METADATA_BY_SOURCE_FID[source_id]
         feature = QgsFeature(memory.fields())
         geometry = source_feature.geometry()
         if not geometry.isMultipart():
@@ -588,7 +588,7 @@ def build_trip_route_layer(project: QgsProject, source: QgsVectorLayer) -> QgsVe
         feature.setAttributes([source_id, service, train, segment])
         features.append(feature)
         seen_ids.add(source_id)
-    missing_ids = set(ROUTE_METADATA_BY_FID) - seen_ids
+    missing_ids = set(ROUTE_METADATA_BY_SOURCE_FID) - seen_ids
     if missing_ids:
         raise RuntimeError(f"Missing Shanxi-Shaanxi route features: {sorted(missing_ids)}")
     memory.dataProvider().addFeatures(features)
@@ -962,7 +962,9 @@ def main() -> int:
             "府谷与神木",
             subset='"name" IN (\'府谷县\', \'神木市\')',
         )
-        trip_route_source = load_vector(project, TRIP_ROUTE, "铁路行程源数据")
+        trip_route_source = load_vector(
+            project, ROUTE_SOURCES_GPKG, "铁路行程源数据", "trip_route_ss"
+        )
         roads, arrows = build_road_layers(project)
         inner_mongolia = save_memory_layer(
             project, inner_mongolia_memory, "内蒙古地级市"

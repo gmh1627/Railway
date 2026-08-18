@@ -31,12 +31,12 @@
 - [`地图输出/全国专题图`](地图输出/全国专题图)：全国足迹、铁路路线、铁路枢纽局部图、航线图等现行成果。
 - [`地图输出/区域线路图`](地图输出/区域线路图)：当前统一风格的各篇区域路线图。
 - [`制图工具/scripts`](制图工具/scripts)：QGIS Python 构建与校验脚本。
-- [`制图工具/数据源/Shapefile`](制图工具/数据源/Shapefile)：仍被构建脚本直接引用的铁路与行程路线源数据。
+- [`制图工具/数据源/GeoPackage/route_sources.gpkg`](制图工具/数据源/GeoPackage/route_sources.gpkg)：全国参考铁路及两套专题路线源图层。
 - [`制图工具/symbology-style.db`](制图工具/symbology-style.db)：QGIS 样式库。
 - [`city`](city) 与 [`province`](province)：市、县区和省级行政区边界。
 - [`QGIS旅行铁路地图制图流程.md`](QGIS旅行铁路地图制图流程.md)：现行视觉规范、数据口径和制图流程。
 
-`制图工具/数据源/Shapefile` 并非每张图片各存一套数据：多数发布工程已把所需图层写入同目录的 `.gpkg`，其他脚本则直接读取 `city`、`province` 或全国足迹输出数据。`railway` 和 `trip_route_ss` 仍分别供全国足迹、山陕漫游脚本读取；`trip_route_home3` 作为回家路上 3 的原始路线备份保留。
+基础矢量数据统一使用 GeoPackage，不再保留 Shapefile。`route_sources.gpkg` 包含 `railway`、`trip_route_home3` 和 `trip_route_ss` 三个图层：前两者分别作为全国铁路参考层和回家路上 3 原始路线备份，`trip_route_ss` 由山陕漫游脚本直接读取。多数发布工程已把所需图层写入同目录的专题 `.gpkg`，其他脚本则直接读取 `city`、`province` 或全国足迹输出数据。
 
 ## 本地数据
 

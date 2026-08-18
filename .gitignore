@@ -16,8 +16,9 @@ __pycache__/
 制图工具/scripts/chuzhou_maanshan/
 制图工具/scripts/xiaocheng3_redesign/
 制图工具/数据源/*
-!制图工具/数据源/Shapefile/
-!制图工具/数据源/Shapefile/**
+!制图工具/数据源/GeoPackage/
+制图工具/数据源/GeoPackage/*
+!制图工具/数据源/GeoPackage/route_sources.gpkg
 
 旧图/
 旧制图文档/
