@@ -114,7 +114,7 @@ def main() -> int:
                 for item in layouts[0].items()
                 if isinstance(item, QgsLayoutItemLabel)
             )
-            for required in ("K158路线图", "09:54  湛江出发", "22:48  抵达北京西"):
+            for required in ("K158路线图", "湛江—北京西，09:54—次日22:48"):
                 if required not in text:
                     errors.append(f"布局文字缺少：{required}")
             if len(
